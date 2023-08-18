@@ -1,0 +1,38 @@
+Black Energy
+	Propagate : SAND
+		Dropper Software : SAND
+			Bypass device driver
+			Start up invokes rundll32.exe 
+			dev mode, removes watermarks 
+			MS Shim
+			Compromise Domain Controller : SAND
+				Privilege Escalation 
+				Gain User Credentials
+		Reside in memory
+		Reconnaissance : SAND
+			Hosts : OR
+			Services : OR
+		Initiate C2 Communication
+	Payload : OR
+		Generic 
+			Detection Prevention : SAND
+				Virtual environments : AND 
+				Anti-debugging methods : AND 
+				Checks for security countermeasures : AND 
+			Network Enumeration : OR
+				Mass Scan IP ranges
+				Targets from existing Botnets 
+			Remote code execution
+			data collection
+		SCADA 
+			Directory traversal vulnerability in CimWebServer.exe (CVE-2014-0751)
+			Execute remote .cim/.bak file : OR
+				devlist.cim : SAND
+					download 'newsfeed.xml' 
+					save as *.wsf 
+					execute *.wsf : SAND 
+				config.bak : SAND
+					download BlackEngery Installer
+					save as 'CimCMSafegs.exe' 
+					copies into Cimplicity directory
+					execute 'CimCMSafegs.exe'

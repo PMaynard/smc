@@ -1,0 +1,12 @@
+TRISIS : SAND
+	Propagate : SAND
+		Dropper 
+			Exploit Engineering Machine 
+		LAN 
+			Enumerate SIS devices
+	Payload : SAND
+		Switch Enabled
+		Check upload access : SAND
+			Upload RAT
+			Install RAT
+		Await Instructions

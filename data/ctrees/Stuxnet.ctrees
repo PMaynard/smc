@@ -1,0 +1,28 @@
+Stuxnet : SAND
+	Business Network (Part-A): JOIN
+	SCADA Network : SAND
+		Propagate Lan : OR
+			Network shares
+			Print server vuln
+			Service server RPC vuln.
+			WinCC remote DB Connections : AND
+				Search WinCC
+				Connection DB 
+				Send malicious code 
+			WindCC Step7 project files : SAND
+				User opens file project 
+				Load .dll
+				Decrypt data load exec malware
+		Payload : SAND
+			Modify PLC function Block : SAND 
+				Check PLC Model
+				Verify Downloaded Logic From PLC
+			Execute PLC : OR
+				Sys 315 : SAND
+					Rootkit 200 activated
+					Collect data
+					PLC sends false data to motors
+				Sys 417 : SAND
+					Rootkit 400 activated
+					Intercept in/out signals
+					Modify Signals

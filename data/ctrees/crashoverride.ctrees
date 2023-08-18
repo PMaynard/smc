@@ -1,0 +1,19 @@
+CrashOverride : OR
+	Reconnaissance : OR
+		IEC 61850 
+		OPC
+			Device Scan 
+		IEC104 
+			Information Object Address Scan
+		IEC101 
+	Payload : OR
+		DoS : OR
+			Loop IEC104 States 
+			Exploit CVE-2015-5374 
+		Wiper : SAND
+			Delete ICS Specific Files 
+			Disable Host from booting 
+				KillDisk MBR 
+				KillDisk Zero-Drive
+		Interference : OR
+			Set IEC104 values

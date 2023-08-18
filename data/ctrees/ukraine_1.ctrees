@@ -1,0 +1,23 @@
+Ukraine Power Outage 1 : SAND
+	Propagate : SAND
+		Business Network : SAND 
+			Dropper software : AND
+				Email Spear-phishing 
+				Office Macros
+			# Downloads and runs BlackEnergy3
+			Compromise Domain Controller : SAND
+			#	Privilege Escalation
+			#	Gain User Credentials 
+			BlackEnergy : JOIN 
+		SCADA Network
+	Payload : SAND
+		Disable converters : SAND
+			Identify converters
+			Upload new firmware
+		Disable UPS : SAND
+			Identify UPS
+			Schedule automatic shutdown
+		Disable Host from booting 
+			KillDisk MBR 
+			KillDisk Zero-Drive
+		Telephone Denial of Service

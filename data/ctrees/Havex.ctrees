@@ -1,0 +1,21 @@
+Havex : SAND
+	Propagate : OR
+		Trojanised Software : SAND
+			Compromise support website
+			Replace legitimate installation software
+		Water Hole : SAND
+			Compromise Site with malicious IFRAME
+			Java exploits CVE-2012-1723, CVE-2013-2465
+			Internet Explorer Exploits CVE-2012-4792, CVE-2013-1347
+		Spear Phishing : SAND
+			User download and open email 
+			PDF/SWF exploit CVE-2011-0611
+	Payload : SAND
+		Dropper Software : SAND
+			HTTP Request to C2
+			Response contains 3 modules
+		Enumerate Network : SAND
+			Ping scan the network
+			Check OPC service 
+			Write to log file
+			Return results to C&C server via RAT.

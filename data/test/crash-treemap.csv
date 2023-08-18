@@ -1,0 +1,18 @@
+CrashOverride/Reconnaissance/
+CrashOverride/Reconnaissance/IEC 61850/
+CrashOverride/Reconnaissance/OPC/
+CrashOverride/Reconnaissance/OPC/Device Scan/
+CrashOverride/Reconnaissance/IEC104/
+CrashOverride/Reconnaissance/IEC104/Information Object Address Scan/
+CrashOverride/Reconnaissance/IEC101/
+CrashOverride/Payload/
+CrashOverride/Payload/DoS/
+CrashOverride/Payload/DoS/Loop IEC104 States/
+CrashOverride/Payload/DoS/Exploit CVE-2015-5374/
+CrashOverride/Payload/Wiper/
+CrashOverride/Payload/Wiper/Delete ICS Specific Files/
+CrashOverride/Payload/Wiper/Disable Host from booting/
+CrashOverride/Payload/Wiper/Disable Host from booting/KillDisk MBR/
+CrashOverride/Payload/Wiper/Disable Host from booting/KillDisk Zero-Drive/
+CrashOverride/Payload/Interference/
+CrashOverride/Payload/Interference/Set IEC104 values/

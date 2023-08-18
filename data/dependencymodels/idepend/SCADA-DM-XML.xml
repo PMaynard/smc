@@ -1,0 +1,4810 @@
+<jvr_model>
+	<id type="integer">292</id>
+	<name type="string">SCADA</name>
+	<description type="string">This is a generic configurable SCADA system dependency model. It has been developed based on the analysis of 36 mind maps produced by SCADA experts specializing in different aspects of SCADA. 
+
+This dependency model may be used as a template for producing systems specific models. </description>
+	<organisation_id type="integer">100</organisation_id>
+	<checksum type="string">6a67dfe01b84669d73edcece759320d9</checksum>
+	<entities type="array">
+		<entity>
+			<id type="integer">3133</id>
+			<name type="string">Management is effective</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3692</id>
+				<id type="integer">3703</id>
+				<id type="integer">3710</id>
+				<id type="integer">3714</id>
+				<id type="integer">3717</id>
+				<id type="integer">3746</id>
+				<id type="integer">3751</id>
+				<id type="integer">3752</id>
+				<id type="integer">3754</id>
+				<id type="integer">3761</id>
+				<id type="integer">3762</id>
+				<id type="integer">3763</id>
+				<id type="integer">3764</id>
+				<id type="integer">3935</id>
+				<id type="integer">3944</id>
+				<id type="integer">3956</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">2450</id>
+			<name type="string">Software is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3167</id>
+				<id type="integer">3776</id>
+				<id type="integer">3780</id>
+				<id type="integer">3784</id>
+				<id type="integer">3968</id>
+				<id type="integer">4844</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+				<observed_state type="integer">1</observed_state>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">2451</id>
+			<name type="string">Hardware is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3815</id>
+				<id type="integer">3903</id>
+				<id type="integer">4843</id>
+				<id type="integer">4856</id>
+				<id type="integer">3812</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3134</id>
+			<name type="string">Data (Information) is properly handled</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3159</id>
+				<id type="integer">3160</id>
+				<id type="integer">3161</id>
+				<id type="integer">4847</id>
+				<id type="integer">4852</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3135</id>
+			<name type="string">Networks are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3835</id>
+				<id type="integer">3857</id>
+				<id type="integer">3869</id>
+				<id type="integer">3887</id>
+				<id type="integer">3900</id>
+				<id type="integer">3902</id>
+				<id type="integer">3946</id>
+				<id type="integer">4858</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3139</id>
+			<name type="string">All roles are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3140</id>
+				<id type="integer">3141</id>
+				<id type="integer">3142</id>
+				<id type="integer">3143</id>
+				<id type="integer">3144</id>
+				<id type="integer">3145</id>
+				<id type="integer">3146</id>
+				<id type="integer">3509</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3152</id>
+			<name type="string">All operators are competent</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3140</id>
+			<name type="string">Software Engineers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3143</id>
+			<name type="string">Physical Security Personnel (guards etc.) are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3144</id>
+			<name type="string">Managers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3154</id>
+			<name type="string">Stakeholder analysis is ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3149</id>
+			<name type="string">Intentions are tracked and observed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3159</id>
+			<name type="string">Data security is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3662</id>
+				<id type="integer">3663</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3157</id>
+			<name type="string">Design validation is detailed and accurate</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3163</id>
+			<name type="string">Emails are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3165</id>
+			<name type="string">SMS communication is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3161</id>
+			<name type="string">All actions with data are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3677</id>
+				<id type="integer">3678</id>
+				<id type="integer">3680</id>
+				<id type="integer">3681</id>
+				<id type="integer">3682</id>
+				<id type="integer">3683</id>
+				<id type="integer">4853</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3183</id>
+			<name type="string">Analogue control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3184</id>
+			<name type="string">Digital start/stop/reset is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3180</id>
+			<name type="string">Plant view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3801</id>
+				<id type="integer">3802</id>
+				<id type="integer">3803</id>
+				<id type="integer">3804</id>
+				<id type="integer">3805</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3173</id>
+			<name type="string">Plant control &amp; view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3179</id>
+				<id type="integer">3180</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3174</id>
+			<name type="string">SCADA control &amp; view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3806</id>
+				<id type="integer">3807</id>
+				<id type="integer">3808</id>
+				<id type="integer">3809</id>
+				<id type="integer">3810</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3178</id>
+			<name type="string">Events display is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3141</id>
+			<name type="string">System Designers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3146</id>
+			<name type="string">Operators are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3148</id>
+				<id type="integer">3149</id>
+				<id type="integer">3150</id>
+				<id type="integer">3151</id>
+				<id type="integer">3152</id>
+				<id type="integer">3510</id>
+				<id type="integer">3511</id>
+				<id type="integer">4850</id>
+				<id type="integer">4851</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3151</id>
+			<name type="string">All operators are diligent</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3148</id>
+			<name type="string">Opearators have required capabilities</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3156</id>
+			<name type="string">Design specification is accurate</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3160</id>
+			<name type="string">Data of all types are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3162</id>
+				<id type="integer">3163</id>
+				<id type="integer">3164</id>
+				<id type="integer">3165</id>
+				<id type="integer">3664</id>
+				<id type="integer">3665</id>
+				<id type="integer">3666</id>
+				<id type="integer">3667</id>
+				<id type="integer">3670</id>
+				<id type="integer">3679</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3182</id>
+			<name type="string">Set modes are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3175</id>
+			<name type="string">Monitoring software is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3790</id>
+				<id type="integer">3791</id>
+				<id type="integer">3792</id>
+				<id type="integer">3793</id>
+				<id type="integer">3178</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3136</id>
+			<name type="string">External Dependencies (Environment) are recognized and dealt with appropriatly</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3620</id>
+				<id type="integer">3639</id>
+				<id type="integer">3647</id>
+				<id type="integer">3648</id>
+				<id type="integer">3649</id>
+				<id type="integer">3650</id>
+				<id type="integer">3657</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3137</id>
+			<name type="string">System Life Cycle is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">All stages of system development life cycle are managed effectively, and security and safety concernes are addressed at every stages</description>
+			<dependencies type="array">
+				<id type="integer">3153</id>
+				<id type="integer">3155</id>
+				<id type="integer">3607</id>
+				<id type="integer">3608</id>
+				<id type="integer">3609</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3164</id>
+			<name type="string">Alarms  are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3668</id>
+				<id type="integer">3669</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3179</id>
+			<name type="string">Plant control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3181</id>
+				<id type="integer">3182</id>
+				<id type="integer">3183</id>
+				<id type="integer">3184</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3181</id>
+			<name type="string">Set thresholds are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">2449</id>
+			<name type="string">System Architecture is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">System Architecture functions reliably and as designed, and is available whenever required by authorized users</description>
+			<dependencies type="array">
+				<id type="integer">2450</id>
+				<id type="integer">2451</id>
+				<id type="integer">3135</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+				<observed_state type="integer">0</observed_state>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">2448</id>
+			<name type="string">Secure and safe operation of a SCADA system</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">A SCADA systems is functional at all times, and operates safely and securely.</description>
+			<dependencies type="array">
+				<id type="integer">2449</id>
+				<id type="integer">3133</id>
+				<id type="integer">3134</id>
+				<id type="integer">3136</id>
+				<id type="integer">3137</id>
+				<id type="integer">3138</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3138</id>
+			<name type="string">Employees are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">Employees have required education, training and certification, in order to be able to fulfill their responsibilities.</description>
+			<dependencies type="array">
+				<id type="integer">3139</id>
+				<id type="integer">3512</id>
+				<id type="integer">3518</id>
+				<id type="integer">3519</id>
+				<id type="integer">3520</id>
+				<id type="integer">3521</id>
+				<id type="integer">3522</id>
+				<id type="integer">3523</id>
+				<id type="integer">3524</id>
+				<id type="integer">3525</id>
+				<id type="integer">3526</id>
+				<id type="integer">3527</id>
+				<id type="integer">3528</id>
+				<id type="integer">3529</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3142</id>
+			<name type="string">InfoSec Engineers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3145</id>
+			<name type="string">Engineers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3509</id>
+			<name type="string">CSO is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3150</id>
+			<name type="string">Malicious operators are eliminated</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">Required procedural activities are undertaken in order to identify potentially malicious operators (e.g. background check, regular personnel checks, behavior and personality observations)</description>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3510</id>
+			<name type="string">Manual supervision is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">Operators are able to supervise system manually.</description>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3511</id>
+			<name type="string">Automatic supervision is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<description type="string">Operators are able to read and interpret the parameters of the system while it is automatically managed, and to identify situations when manual control is required</description>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3513</id>
+			<name type="string">Training needs are anlysed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3514</id>
+			<name type="string">Individual training is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3515</id>
+			<name type="string">Team training is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3516</id>
+			<name type="string">Use cases are examined</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3517</id>
+			<name type="string">Training on operating instructions and procedures is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3518</id>
+			<name type="string">Employees understand the importance of safety and cyber security</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3519</id>
+			<name type="string">IT hygiene is appropriate</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3521</id>
+			<name type="string">Employees have required qualification</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3522</id>
+			<name type="string">Awareness is at the appropriate level</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3523</id>
+			<name type="string">Employees have required Experience/Skills</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3524</id>
+			<name type="string">Health and Safety is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">4861</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3525</id>
+			<name type="string">Staff retention program is in place</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3526</id>
+			<name type="string">Procedures for new personnel are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3527</id>
+			<name type="string">Procedures for leaving personnel are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3528</id>
+			<name type="string">Background checks for appropriate personnel are performed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3529</id>
+			<name type="string">Administration of human resources is effective</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3153</id>
+			<name type="string">Requirements Engineering stage is dealt with effectivelly</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3154</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5,0.5]},{"name":"on","values":[0.5,0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3512</id>
+			<name type="string">Training is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3513</id>
+				<id type="integer">3514</id>
+				<id type="integer">3515</id>
+				<id type="integer">3516</id>
+				<id type="integer">3517</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3155</id>
+			<name type="string">Design is aligned with actual requirements</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3156</id>
+				<id type="integer">3606</id>
+				<id type="integer">3157</id>
+				<id type="integer">4845</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3606</id>
+			<name type="string">No poor design decisions </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3607</id>
+			<name type="string">Integration and system delivery stages are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3610</id>
+				<id type="integer">3611</id>
+				<id type="integer">3612</id>
+				<id type="integer">3613</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3609</id>
+			<name type="string">Disposal stage is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3610</id>
+			<name type="string">Software development is OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3611</id>
+			<name type="string">Software installation</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3612</id>
+			<name type="string">Software configuration</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3613</id>
+			<name type="string">Software compatibility is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3615</id>
+			<name type="string">Versioning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3616</id>
+			<name type="string">Updates and patches are timely</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3614</id>
+			<name type="string">Software is well maintained</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3617</id>
+			<name type="string">Monitoring is persistent </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3618</id>
+			<name type="string">Backups are regular</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3608</id>
+			<name type="string">Operation stage is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3614</id>
+				<id type="integer">3615</id>
+				<id type="integer">3616</id>
+				<id type="integer">3617</id>
+				<id type="integer">3618</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3622</id>
+			<name type="string">On-site third party support is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3623</id>
+			<name type="string">Remote third party support is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3621</id>
+			<name type="string">Third party support is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3622</id>
+				<id type="integer">3623</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3620</id>
+			<name type="string">Third parties are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3621</id>
+				<id type="integer">3624</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3625</id>
+			<name type="string">Supply chain is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3624</id>
+			<name type="string">Third parties of all types are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3625</id>
+				<id type="integer">3626</id>
+				<id type="integer">3627</id>
+				<id type="integer">3628</id>
+				<id type="integer">3629</id>
+				<id type="integer">3630</id>
+				<id type="integer">3631</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3628</id>
+			<name type="string">Equipment and system designers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3629</id>
+			<name type="string">Equipment and system integrators are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3630</id>
+			<name type="string">Customers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3631</id>
+			<name type="string">Manufacturers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3632</id>
+			<name type="string">Energy service providers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3633</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3633</id>
+			<name type="string">CNI is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3627</id>
+			<name type="string">Service providers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3632</id>
+				<id type="integer">3634</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3634</id>
+			<name type="string">Other service providers are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3635</id>
+			<name type="string">Vendors are trustworthy</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3636</id>
+			<name type="string">Vendors help with expansion</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3637</id>
+			<name type="string">Vendors do regular updates</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3638</id>
+			<name type="string">Vendor exposure is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3639</id>
+			<name type="string">No threats or threat agents</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3640</id>
+				<id type="integer">3641</id>
+				<id type="integer">3642</id>
+				<id type="integer">3643</id>
+				<id type="integer">3644</id>
+				<id type="integer">3645</id>
+				<id type="integer">3646</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3640</id>
+			<name type="string">History of threats is maintained and analysed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3641</id>
+			<name type="string">Current threats are analysed </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3642</id>
+			<name type="string">No software attacks</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3643</id>
+			<name type="string">No hardware attacks</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3644</id>
+			<name type="string">No protocol attacks</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3645</id>
+			<name type="string">No insider attacks</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3646</id>
+			<name type="string">No outsider attacks</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3647</id>
+			<name type="string">International linkage is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3648</id>
+			<name type="string">Connections with industry working groups is maintained</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3649</id>
+			<name type="string">Links with media/press are established</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3651</id>
+			<name type="string">Regulation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3652</id>
+			<name type="string">Advice is useful and timely</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3650</id>
+			<name type="string">Government (local and departments) are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3651</id>
+				<id type="integer">3652</id>
+				<id type="integer">3653</id>
+				<id type="integer">3654</id>
+				<id type="integer">3655</id>
+				<id type="integer">3656</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3653</id>
+			<name type="string">Funding is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3654</id>
+			<name type="string">Policies are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3655</id>
+			<name type="string">Legislation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3656</id>
+			<name type="string">Political landscape is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3658</id>
+			<name type="string">EU standards are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3657</id>
+			<name type="string">Standardization bodies are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3658</id>
+				<id type="integer">3659</id>
+				<id type="integer">3660</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3659</id>
+			<name type="string">UK (National) standards are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3660</id>
+			<name type="string">US standards are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3661</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3661</id>
+			<name type="string">Good practice guides are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3662</id>
+			<name type="string">Appropriate data is encrypted</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3663</id>
+			<name type="string">Non-encrypted  data are properly handled </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3665</id>
+			<name type="string">Configuration data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3162</id>
+			<name type="string">Time signal (GPS clock) is precise</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3667</id>
+			<name type="string">Climate data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3668</id>
+			<name type="string">Control system generated alarms are OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3669</id>
+			<name type="string">Field device generated alarms are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3671</id>
+			<name type="string">Event data generated by control system is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3672</id>
+			<name type="string">Event data generated byfield devices is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3670</id>
+			<name type="string">Event data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3671</id>
+				<id type="integer">3672</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3664</id>
+			<name type="string">Software data/Settigns is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3666</id>
+			<name type="string">Sensor readings are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3673</id>
+				<id type="integer">3674</id>
+				<id type="integer">3675</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3673</id>
+			<name type="string">Primary/raw data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3676</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3674</id>
+			<name type="string">Analysed data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3675</id>
+			<name type="string">Backup data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3676</id>
+			<name type="string">Consumption data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3677</id>
+			<name type="string">Acquisitions (Logging) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3678</id>
+			<name type="string">Storage for review is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3679</id>
+			<name type="string">Operator actions data is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3680</id>
+			<name type="string">Forensics is possible</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3681</id>
+			<name type="string">Data backup is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3684</id>
+			<name type="string">Trending is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3685</id>
+			<name type="string">Alarm/alert generation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3686</id>
+			<name type="string">Real-time parsing</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3682</id>
+			<name type="string">Analysis is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3684</id>
+				<id type="integer">3685</id>
+				<id type="integer">3686</id>
+				<id type="integer">4854</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3687</id>
+			<name type="string">Periodic reporting is Ok </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3688</id>
+			<name type="string">Customary reporting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3683</id>
+			<name type="string">Reporting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3687</id>
+				<id type="integer">3688</id>
+				<id type="integer">3689</id>
+				<id type="integer">3690</id>
+				<id type="integer">3691</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3689</id>
+			<name type="string">Management reporting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3690</id>
+			<name type="string">Real-time reporting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3691</id>
+			<name type="string">Alerting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3693</id>
+			<name type="string">Readiness for incident response is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3692</id>
+			<name type="string">Quality criteria are satisfied</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3693</id>
+				<id type="integer">3694</id>
+				<id type="integer">3695</id>
+				<id type="integer">3696</id>
+				<id type="integer">3697</id>
+				<id type="integer">3698</id>
+				<id type="integer">3699</id>
+				<id type="integer">3700</id>
+				<id type="integer">3701</id>
+				<id type="integer">3702</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5,0.5]},{"name":"on","values":[0.5,0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3694</id>
+			<name type="string">All system components are available</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3695</id>
+			<name type="string">System is sustainable</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3696</id>
+			<name type="string">System integrity is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3697</id>
+			<name type="string">Confidentiality is ensured</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3698</id>
+			<name type="string">System is Agile</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3699</id>
+			<name type="string">Maintainability is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3700</id>
+			<name type="string">Operability is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3702</id>
+			<name type="string">System is reliable</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3704</id>
+			<name type="string">Metrics and KPIs are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3705</id>
+				<id type="integer">3706</id>
+				<id type="integer">3707</id>
+				<id type="integer">3708</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3707</id>
+			<name type="string">Uptime Metrics are OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3708</id>
+			<name type="string">Throughput Metrics are OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3710</id>
+			<name type="string">Safety is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3711</id>
+				<id type="integer">3712</id>
+				<id type="integer">3713</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3714</id>
+			<name type="string">Change management is OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3715</id>
+				<id type="integer">3716</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3720</id>
+			<name type="string">Water is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3722</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3718</id>
+			<name type="string">Facilities are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3719</id>
+				<id type="integer">3720</id>
+				<id type="integer">3721</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3721</id>
+			<name type="string">Oil is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3722</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3722</id>
+			<name type="string">CNI is OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3719</id>
+			<name type="string">Power is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3722</id>
+				<id type="integer">3723</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,0.0,0.0,0.0]},{"name":"on","values":[0.0,1.0,1.0,1.0]}]</raw_data>
+				<configuration type="string">or</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3724</id>
+			<name type="string">Physical security is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3725</id>
+				<id type="integer">3726</id>
+				<id type="integer">3727</id>
+				<id type="integer">3728</id>
+				<id type="integer">3729</id>
+				<id type="integer">3931</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3729</id>
+			<name type="string">Physical penetration testing is regular</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3733</id>
+			<name type="string">No environmental loss</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3734</id>
+			<name type="string">No life loss</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3735</id>
+			<name type="string">No injuries</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3728</id>
+			<name type="string">CCTV system is OK</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3773</id>
+				<id type="integer">3774</id>
+				<id type="integer">3775</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3725</id>
+			<name type="string">Access points are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3932</id>
+				<id type="integer">3933</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,0.0,0.0,0.0]},{"name":"on","values":[0.0,1.0,1.0,1.0]}]</raw_data>
+				<configuration type="string">or</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3717</id>
+			<name type="string">Control center and remote station buildings are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3718</id>
+				<id type="integer">3724</id>
+				<id type="integer">3730</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3701</id>
+			<name type="string">System is resiliant</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3703</id>
+			<name type="string">Operations monitoring is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3704</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3705</id>
+			<name type="string">Acceptance level is adequte</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3706</id>
+			<name type="string">Baseline is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3711</id>
+			<name type="string">Safety analysis is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3712</id>
+			<name type="string">Safety Process is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3713</id>
+			<name type="string">Safety control and instrumentation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3715</id>
+			<name type="string">Change in function is properly managed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3716</id>
+			<name type="string">Change in business model is properly managed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3723</id>
+			<name type="string">Emergency power system</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3726</id>
+			<name type="string">Access in controlled and monitored</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3730</id>
+			<name type="string">No hazards</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3736</id>
+			<name type="string">No financial loss</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3732</id>
+			<name type="string">No loss</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3733</id>
+				<id type="integer">3734</id>
+				<id type="integer">3735</id>
+				<id type="integer">3736</id>
+				<id type="integer">4863</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3737</id>
+			<name type="string">Incident response (cross IT/OT) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3738</id>
+				<id type="integer">3739</id>
+				<id type="integer">3740</id>
+				<id type="integer">3772</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3731</id>
+			<name type="string">Incident management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3732</id>
+				<id type="integer">3737</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3738</id>
+			<name type="string">Press/media handling is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3741</id>
+			<name type="string">Investigation methodology is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3742</id>
+			<name type="string">Investigation capabilities are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3740</id>
+			<name type="string">Forensics is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3741</id>
+				<id type="integer">3742</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3743</id>
+			<name type="string">Response exercises and testing are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3744</id>
+			<name type="string">Automated (rule-driven) responses are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3739</id>
+			<name type="string">Response procedures are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3743</id>
+				<id type="integer">3744</id>
+				<id type="integer">3745</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3745</id>
+			<name type="string">Non-automated alarm responses are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3747</id>
+			<name type="string">Business objective(s) is clear</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3746</id>
+			<name type="string">Business context is well understood</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3747</id>
+				<id type="integer">3748</id>
+				<id type="integer">3749</id>
+				<id type="integer">3750</id>
+				<id type="integer">4857</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3749</id>
+			<name type="string">Customer requirements are analysed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3750</id>
+			<name type="string">Business planning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3748</id>
+			<name type="string">Economic case/Finance/Budget are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3751</id>
+			<name type="string">Contract management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3752</id>
+			<name type="string">Interest and understanding at decision level is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3756</id>
+			<name type="string">Documentation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3757</id>
+			<name type="string">Assurance testing is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3754</id>
+			<name type="string">Certification is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3753</id>
+				<id type="integer">3757</id>
+				<id type="integer">3758</id>
+				<id type="integer">3756</id>
+				<id type="integer">3759</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3758</id>
+			<name type="string">Inspections are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3753</id>
+			<name type="string">Certification body accreditation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3759</id>
+			<name type="string">Compliance is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3761</id>
+			<name type="string">Marketing is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3762</id>
+			<name type="string">Logistics is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3763</id>
+			<name type="string">Life cycle management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3765</id>
+			<name type="string">Risk assessment and analysis are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3766</id>
+			<name type="string">Disruption planning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3767</id>
+			<name type="string">Replacement strategies are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3768</id>
+			<name type="string">Resource planning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3769</id>
+			<name type="string">Reporting for regulation, customers and stakeholders is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3770</id>
+			<name type="string">Coordination with all concerned parties is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3771</id>
+			<name type="string">Personnel management in a case of an incident is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3764</id>
+			<name type="string">Risk management and contingency are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3765</id>
+				<id type="integer">3766</id>
+				<id type="integer">3767</id>
+				<id type="integer">3768</id>
+				<id type="integer">3769</id>
+				<id type="integer">3770</id>
+				<id type="integer">3771</id>
+				<id type="integer">3731</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3772</id>
+			<name type="string">Concerned customers are dealt with timely and effectivelly</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3773</id>
+			<name type="string">Camera control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3774</id>
+			<name type="string">Camera images are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3775</id>
+			<name type="string">Interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3777</id>
+			<name type="string">Operating system is free from vulnerabilities</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3172</id>
+			<name type="string">Training  simulation software is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3778</id>
+			<name type="string">Bespoke applications are Ok and free from bugs</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3779</id>
+			<name type="string">COTs are Ok and free from bugs</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3781</id>
+			<name type="string">GIS system is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3782</id>
+			<name type="string">Customer invoicing system is Ok </name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3776</id>
+			<name type="string">Operating system(s) is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3777</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5,0.5]},{"name":"on","values":[0.5,0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3167</id>
+			<name type="string">HMI runtime software application(s) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3173</id>
+				<id type="integer">3174</id>
+				<id type="integer">3787</id>
+				<id type="integer">3175</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3783</id>
+			<name type="string">Archiving software (Historian) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3785</id>
+			<name type="string">User credentials are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3786</id>
+			<name type="string">User privileges are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3780</id>
+			<name type="string">Software applications in use are Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3781</id>
+				<id type="integer">3782</id>
+				<id type="integer">4842</id>
+				<id type="integer">3783</id>
+				<id type="integer">3172</id>
+				<id type="integer">3778</id>
+				<id type="integer">3779</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3788</id>
+			<name type="string">Graphical representation is clear</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3789</id>
+			<name type="string">Semi-graphical representation is clear</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3787</id>
+			<name type="string">GUI is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3788</id>
+				<id type="integer">3789</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3790</id>
+			<name type="string">Digital monitoring is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3791</id>
+			<name type="string">Analogue monitoring is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3792</id>
+			<name type="string">Previous data is available</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3793</id>
+			<name type="string">Alarms issuing and control are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3794</id>
+				<id type="integer">3795</id>
+				<id type="integer">3796</id>
+				<id type="integer">3797</id>
+				<id type="integer">3798</id>
+				<id type="integer">3799</id>
+				<id type="integer">3800</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3794</id>
+			<name type="string">Thresholds are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3795</id>
+			<name type="string">View of all alarms is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3796</id>
+			<name type="string">Shelved alarm view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3797</id>
+			<name type="string">Operational alarm display is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3798</id>
+			<name type="string">Alarm handling is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3799</id>
+			<name type="string">Alarm SMS interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3800</id>
+			<name type="string">Alarm email interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3801</id>
+			<name type="string">Process unit support is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3802</id>
+			<name type="string">Diagnostic display is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3803</id>
+			<name type="string">Process unit detail display is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3804</id>
+			<name type="string">Process unit control view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3805</id>
+			<name type="string">Process area view is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3806</id>
+			<name type="string">SCADA control interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3807</id>
+			<name type="string">CCTV system control interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3808</id>
+			<name type="string">MIS interface control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3809</id>
+			<name type="string">Alarm system control interface is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3810</id>
+			<name type="string">Historian control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3811</id>
+			<name type="string">Login and logout are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3812</id>
+			<name type="string">Power supply is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3813</id>
+				<id type="integer">3814</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3817</id>
+			<name type="string">Backup control center is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3818</id>
+			<name type="string">HMI workstations are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3819</id>
+				<id type="integer">3820</id>
+				<id type="integer">3828</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3820</id>
+			<name type="string">Ergonomics is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3822</id>
+			<name type="string">Large screen display is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3827</id>
+			<name type="string">Stored procedures and functions are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3829</id>
+			<name type="string">Thick clients are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3830</id>
+			<name type="string">Thin clients are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3831</id>
+			<name type="string">Mobile clients are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3833</id>
+			<name type="string">RAM is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3835</id>
+			<name type="string">Physical layer is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3836</id>
+				<id type="integer">3837</id>
+				<id type="integer">3845</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3838</id>
+			<name type="string">Patch cables are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3844</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3836</id>
+			<name type="string">Wired communications are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3838</id>
+				<id type="integer">3839</id>
+				<id type="integer">3840</id>
+				<id type="integer">3841</id>
+				<id type="integer">3842</id>
+				<id type="integer">3843</id>
+				<id type="integer">3850</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3841</id>
+			<name type="string">Source is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3842</id>
+			<name type="string">Destination is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3844</id>
+			<name type="string">Serial communication is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3846</id>
+			<name type="string">Modems are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3849</id>
+			<name type="string">Connectors are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3851</id>
+			<name type="string">Radio communication is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3852</id>
+				<id type="integer">3853</id>
+				<id type="integer">3855</id>
+				<id type="integer">3856</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3854</id>
+			<name type="string">Satellite (mobile) communication is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3855</id>
+			<name type="string">GPRS is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3856</id>
+			<name type="string">GMS is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3858</id>
+			<name type="string">All protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3859</id>
+				<id type="integer">3860</id>
+				<id type="integer">3861</id>
+				<id type="integer">3862</id>
+				<id type="integer">3863</id>
+				<id type="integer">3864</id>
+				<id type="integer">3865</id>
+				<id type="integer">3866</id>
+				<id type="integer">3867</id>
+				<id type="integer">3868</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3860</id>
+			<name type="string">TCP/IP is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3867</id>
+			<name type="string">Protocol converter is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3868</id>
+			<name type="string">SCADA handshake is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3875</id>
+			<name type="string">VPN is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3877</id>
+			<name type="string">Handheld devices are secure</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3878</id>
+			<name type="string">Other systems are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3873</id>
+			<name type="string">Enterprise LAN is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3874</id>
+				<id type="integer">3875</id>
+				<id type="integer">3876</id>
+				<id type="integer">3877</id>
+				<id type="integer">3878</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3880</id>
+			<name type="string">PLC network is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3882</id>
+			<name type="string">Remote I/O systems are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3884</id>
+			<name type="string">Load bay is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3886</id>
+			<name type="string">Generator bay is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3888</id>
+			<name type="string">Fault management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3891</id>
+			<name type="string">Service Level Agreements are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3896</id>
+			<name type="string">Jitter is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3898</id>
+			<name type="string">New area plans are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3904</id>
+			<name type="string">IEDs are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3907</id>
+			<name type="string">Control function is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3905</id>
+			<name type="string">PLCs are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3906</id>
+				<id type="integer">3907</id>
+				<id type="integer">3908</id>
+				<id type="integer">3913</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3908</id>
+			<name type="string">Ladder logic is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3824</id>
+			<name type="string">Database implementation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3826</id>
+				<id type="integer">3827</id>
+				<id type="integer">3825</id>
+				<id type="integer">3934</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3821</id>
+			<name type="string">MTU (SCADA server) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3832</id>
+				<id type="integer">3833</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3879</id>
+			<name type="string">Control zone is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3880</id>
+				<id type="integer">3881</id>
+				<id type="integer">3882</id>
+				<id type="integer">3883</id>
+				<id type="integer">4864</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3892</id>
+			<name type="string">Performance management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3893</id>
+				<id type="integer">3894</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3813</id>
+			<name type="string">Power supply wiring is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3814</id>
+			<name type="string">CNI is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3815</id>
+			<name type="string">Control center is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3816</id>
+				<id type="integer">3817</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,0.0,0.0,0.0]},{"name":"on","values":[0.0,1.0,1.0,1.0]}]</raw_data>
+				<configuration type="string">or</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3819</id>
+			<name type="string">Graphic card is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3816</id>
+			<name type="string">Primary control center is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3818</id>
+				<id type="integer">3821</id>
+				<id type="integer">3822</id>
+				<id type="integer">3823</id>
+				<id type="integer">3971</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3823</id>
+			<name type="string">Historian server is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3824</id>
+				<id type="integer">3834</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3825</id>
+			<name type="string">Real-time processing is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3826</id>
+			<name type="string">Database schema is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3828</id>
+			<name type="string">Client management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3829</id>
+				<id type="integer">3830</id>
+				<id type="integer">3831</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3834</id>
+			<name type="string">Backups are regular and secure</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3837</id>
+			<name type="string">Wireless communications are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3851</id>
+				<id type="integer">3854</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3839</id>
+			<name type="string">Control cable is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3840</id>
+			<name type="string">Masts/trunks are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3843</id>
+			<name type="string">Dedicated line is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3847</id>
+			<name type="string">Router is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3848</id>
+			<name type="string">Switches are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3850</id>
+			<name type="string">Ports are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3852</id>
+			<name type="string">Public band is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3853</id>
+			<name type="string">Licences radio communication is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3859</id>
+			<name type="string">PLC protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3861</id>
+			<name type="string">OPC server si Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3862</id>
+			<name type="string">Standardized protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3863</id>
+			<name type="string">Proprietary protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3864</id>
+			<name type="string">Secure mechanisms in protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3865</id>
+			<name type="string">Latency is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3866</id>
+			<name type="string">Interoperability is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3870</id>
+			<name type="string">External zone is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3871</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3871</id>
+			<name type="string">Internet is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3872</id>
+			<name type="string">Corporate zone is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3873</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3874</id>
+			<name type="string">Ethernet is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3876</id>
+			<name type="string">Access pointe are secure</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3869</id>
+			<name type="string">All zones are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3870</id>
+				<id type="integer">3872</id>
+				<id type="integer">3879</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3881</id>
+			<name type="string">Industrial Ethernet is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3883</id>
+			<name type="string">Local control LAN is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3884</id>
+				<id type="integer">3885</id>
+				<id type="integer">3886</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3885</id>
+			<name type="string">Line bay is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3889</id>
+			<name type="string">Redundancy management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3890</id>
+			<name type="string">Configuration is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3893</id>
+			<name type="string">Actual use of capacity is ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3895</id>
+			<name type="string">Bandwidth is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3894</id>
+			<name type="string">Performance evaluation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3895</id>
+				<id type="integer">3896</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3887</id>
+			<name type="string">Network management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3888</id>
+				<id type="integer">3889</id>
+				<id type="integer">3890</id>
+				<id type="integer">3891</id>
+				<id type="integer">3892</id>
+				<id type="integer">3897</id>
+				<id type="integer">4859</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3899</id>
+			<name type="string">Long-term planning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3897</id>
+			<name type="string">Network plans is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3898</id>
+				<id type="integer">3899</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3900</id>
+			<name type="string">Other networks are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3902</id>
+			<name type="string">All networks are available</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3906</id>
+			<name type="string">Safety PLC is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3903</id>
+			<name type="string">Field devices are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3904</id>
+				<id type="integer">3905</id>
+				<id type="integer">3909</id>
+				<id type="integer">3912</id>
+				<id type="integer">3919</id>
+				<id type="integer">3928</id>
+				<id type="integer">3929</id>
+				<id type="integer">3930</id>
+				<id type="integer">3943</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3910</id>
+			<name type="string">Sensors are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3911</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3911</id>
+			<name type="string">No sensor overloading</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3934</id>
+			<name type="string">Database disruption statistics is maintained</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3912</id>
+			<name type="string">Active components (actuators) are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3914</id>
+				<id type="integer">3915</id>
+				<id type="integer">4865</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3913</id>
+			<name type="string">Settings are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3914</id>
+			<name type="string">Emergency shutdown function is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3915</id>
+			<name type="string">Control action is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3916</id>
+			<name type="string">Meters are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3917</id>
+				<id type="integer">3918</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3909</id>
+			<name type="string">Passive components are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3910</id>
+				<id type="integer">3916</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3917</id>
+			<name type="string">Customer meters are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3918</id>
+			<name type="string">Interllegent meters are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3919</id>
+			<name type="string">RTUs are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3920</id>
+				<id type="integer">3921</id>
+				<id type="integer">3922</id>
+				<id type="integer">3923</id>
+				<id type="integer">3925</id>
+				<id type="integer">3926</id>
+				<id type="integer">3927</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3920</id>
+			<name type="string">Panel earthing is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3921</id>
+			<name type="string">DI module is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3922</id>
+			<name type="string">Enclosure is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3923</id>
+			<name type="string">DO module is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3924</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3924</id>
+			<name type="string">Interposing relay is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3925</id>
+			<name type="string">AI module is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3926</id>
+			<name type="string">Communication module is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3927</id>
+			<name type="string">Control wiring is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3928</id>
+			<name type="string">GPS clock (time signal) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3929</id>
+			<name type="string">Position is stable</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3930</id>
+			<name type="string">Shelter from adverse weather is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3727</id>
+			<name type="string">Gates, locks, keys are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3931</id>
+			<name type="string">Area is secure</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3933</id>
+			<name type="string">Passwords are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3932</id>
+			<name type="string">Biometric access control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3936</id>
+			<name type="string">Diverse maintenance team is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3935</id>
+			<name type="string">System maintenance is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3936</id>
+				<id type="integer">3937</id>
+				<id type="integer">3941</id>
+				<id type="integer">3942</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3938</id>
+			<name type="string">Replacement is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3939</id>
+			<name type="string">Cleaning is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3937</id>
+			<name type="string">Maintenance procedures are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3938</id>
+				<id type="integer">3939</id>
+				<id type="integer">3940</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3940</id>
+			<name type="string">Repair is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3941</id>
+			<name type="string">Remote maintenance is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3942</id>
+			<name type="string">Onsite maintenance is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3943</id>
+			<name type="string">No device fragility</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3944</id>
+			<name type="string">System legacy management is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3945</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3945</id>
+			<name type="string">Asset management system is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3948</id>
+			<name type="string">Physical isolation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3946</id>
+			<name type="string">Security is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3955</id>
+				<id type="integer">3961</id>
+				<id type="integer">3964</id>
+				<id type="integer">3965</id>
+				<id type="integer">3966</id>
+				<id type="integer">3967</id>
+				<id type="integer">3901</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3949</id>
+			<name type="string">Airgap is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3950</id>
+			<name type="string">Firewall is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3947</id>
+			<name type="string">Logical isolation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3949</id>
+				<id type="integer">3950</id>
+				<id type="integer">3951</id>
+				<id type="integer">3952</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3951</id>
+			<name type="string">Default deny policy</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3952</id>
+			<name type="string">Access control is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3953</id>
+				<id type="integer">3954</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3953</id>
+			<name type="string">Authorisation mechanisms are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3954</id>
+			<name type="string">Access rights are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3955</id>
+			<name type="string">Isolation is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3948</id>
+				<id type="integer">3947</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3957</id>
+			<name type="string">Cyber Security Operations Center (SOC) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3958</id>
+			<name type="string">Cyber security policies are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3960</id>
+			<name type="string">Cyber security analytics is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3961</id>
+			<name type="string">IDS/IPS is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3962</id>
+				<id type="integer">3963</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3956</id>
+			<name type="string">Cyber security governance is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3957</id>
+				<id type="integer">3958</id>
+				<id type="integer">3959</id>
+				<id type="integer">3960</id>
+				<id type="integer">4846</id>
+				<id type="integer">4848</id>
+				<id type="integer">4855</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3959</id>
+			<name type="string">Complicance with cyber security regulations is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3962</id>
+			<name type="string">IDS sensors are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3963</id>
+			<name type="string">Alerting is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3967</id>
+			<name type="string">Device discovery is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3969</id>
+			<name type="string">Vendor support is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3970</id>
+			<name type="string">Policies are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3971</id>
+			<name type="string">Device hardening is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3626</id>
+			<name type="string">Vendors are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3635</id>
+				<id type="integer">3636</id>
+				<id type="integer">3637</id>
+				<id type="integer">3638</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3964</id>
+			<name type="string">Penetration testing is regular</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3966</id>
+			<name type="string">Data encryption (cryptography) is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3965</id>
+			<name type="string">Network audit and diagnostics is regular</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3845</id>
+			<name type="string">All equipment is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3846</id>
+				<id type="integer">3847</id>
+				<id type="integer">3848</id>
+				<id type="integer">3849</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3857</id>
+			<name type="string">Communication protocols are Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3858</id>
+			</dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3784</id>
+			<name type="string">Only authorized access to the system</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3785</id>
+				<id type="integer">3786</id>
+				<id type="integer">3811</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4842</id>
+			<name type="string">Enterprise management system is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4843</id>
+			<name type="string">Communication server is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4844</id>
+			<name type="string">Virtualization and virtual servers are Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4845</id>
+			<name type="string">Design is secure (security by design)</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4846</id>
+			<name type="string">Organisational security culture is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3520</id>
+			<name type="string">Employees have required education/knowledge</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4847</id>
+			<name type="string">Data flow is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4848</id>
+			<name type="string">Unknown vulnerabilities are anticipated</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3968</id>
+			<name type="string">Patching management is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array">
+				<id type="integer">3969</id>
+				<id type="integer">3970</id>
+				<id type="integer">4849</id>
+			</dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[1.0,1.0,1.0,0.0]},{"name":"on","values":[0.0,0.0,0.0,1.0]}]</raw_data>
+				<configuration type="string">and</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4849</id>
+			<name type="string">Patching and updates are regular</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4850</id>
+			<name type="string">Operator interaction is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4851</id>
+			<name type="string">Situational awareness is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4852</id>
+			<name type="string">Data presentation is clear and effective</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4853</id>
+			<name type="string">Access to data is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4854</id>
+			<name type="string">Calculations and formulas are correct</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4855</id>
+			<name type="string">Known vulnerabilities are understood and addressed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4856</id>
+			<name type="string">All other embedded systems are Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3832</id>
+			<name type="string">Processor and processing power is Ok</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4857</id>
+			<name type="string">Resource constraints are addressed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4858</id>
+			<name type="string">Bandwidth is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">3901</id>
+			<name type="string">Known vulnerabilities are eliminated or otherwise addressed</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<raw_data type="string">[{"name":"off","values":[0.5]},{"name":"on","values":[0.5]}]</raw_data>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4859</id>
+			<name type="string">Network monitoring is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4861</id>
+			<name type="string">Employees feel safe</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4863</id>
+			<name type="string">No loss or damage of material</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4864</id>
+			<name type="string">Remote control is Okay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+		<entity>
+			<id type="integer">4865</id>
+			<name type="string">Protection relay</name>
+			<organisation_id type="integer">100</organisation_id>
+			<dependencies type="array"></dependencies>
+			<probability_table>
+				<configuration type="string">default</configuration>
+			</probability_table>
+		</entity>
+	</entities>
+</jvr_model>

@@ -1,0 +1,1 @@
+ls *.go | entr -c go run .

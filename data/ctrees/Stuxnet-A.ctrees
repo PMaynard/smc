@@ -1,0 +1,22 @@
+Business Network (Part-A) : SAND
+	Removable Storage Media: SAND
+		User Inserts USB 
+		Windows vulnerability exploit : OR
+			Win LNK vuln
+			Autorun.inf vuln
+	Dropper Software : SAND
+		Self injection into process
+		Check Windows config
+		Check admin rights : OR
+			Escalation of privileges 
+			Keyboard layout vuln.
+			Task planner vuln.
+		Main module : SAND
+			Install RootKit : AND
+				Load signed driver
+				Scan file system drivers
+				Attach to device object	
+				Filter .lnk .tmp 
+			Updates : OR
+				P2P Comms.
+				C&C server comms.

@@ -1,0 +1,9 @@
+Become Root : OR
+	No-auth : SAND
+		Gain user privileges : SAND
+			ftp
+			rsh
+		Local Buffer Overflow
+	Auth : AND
+		ssh 
+		rsa

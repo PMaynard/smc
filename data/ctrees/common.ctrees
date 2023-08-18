@@ -1,0 +1,31 @@
+*
+	Reconnaissance 
+		Day-to-day Operations
+		Operator Behaviour 
+		Network Patterns
+		Network Services
+		System Processes
+	Propagate : SAND
+		Lateral Movement
+			Living off the Land
+			Domain Controller
+			Stolen Credentials
+			Spear-phishing
+			Water Hole
+			Removable Storage
+			Internal P2P Comms.
+		Command and Control
+	Payload : SAND
+		Fileless Operation
+		Actively Bypass Detection
+		Zero Day Exploit
+		Reconn
+			Passive Network Monitoring
+			Enumerate Fieldbus Devices
+			Exfiltrate Targeted Files
+		Destructive
+			Target Industrial Devices
+			DoS
+			False Data
+			Transmit Malicious Commands 
+			Modify Firmware

@@ -1,0 +1,12 @@
+Ukraine Power Outage 2 : SAND
+	Propagate : SAND
+		Dropper software
+			Email Spear-phishing 
+			Office Macros
+		Compromise Domain Controller : SAND
+			Build behaviour profile of IT staff
+			Privilege Escalation
+			Gain User Credentials 
+	Payload 
+		CrashOverride : JOIN
+

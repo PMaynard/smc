@@ -1,0 +1,3860 @@
+
+<svg 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	viewBox="0 0 1000.000000 1000.000000" 
+	style="background: white none repeat scroll 0% 0%;"
+>
+
+<g>
+	<rect x="36.000000" y="36.000000" width="928.000000" height="928.000000" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(44.000000,51.600000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Secure and safe operation of a SCADA system</text>
+		
+</g>
+
+
+<g>
+	<rect x="44.000000" y="57.600000" width="609.790698" height="576.647619" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(52.000000,73.200000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System Architecture is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="44.000000" y="642.247619" width="609.790698" height="313.752381" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(52.000000,657.847619) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Management is effective</text>
+		
+</g>
+
+
+<g>
+	<rect x="661.790698" y="57.600000" width="294.209302" height="256.700885" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(669.790698,73.200000) scale(0.762635)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data (Information) is properly handled</text>
+		
+</g>
+
+
+<g>
+	<rect x="661.790698" y="587.001770" width="294.209302" height="248.679646" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(669.790698,602.601770) scale(0.371540)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">External Dependencies (Environment) are recognized and dealt with appropriatly</text>
+		
+</g>
+
+
+<g>
+	<rect x="661.790698" y="843.681416" width="294.209302" height="112.318584" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(669.790698,859.281416) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System Life Cycle is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="661.790698" y="322.300885" width="294.209302" height="256.700885" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(669.790698,337.900885) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Employees are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="52.000000" y="418.395767" width="428.197284" height="207.851852" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(60.000000,433.995767) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Software is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="488.197284" y="79.200000" width="157.593413" height="547.047619" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(496.197284,94.800000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Hardware is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="52.000000" y="79.200000" width="428.197284" height="331.195767" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(60.000000,94.800000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Networks are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="198.778219" y="834.269841" width="168.133863" height="113.730159" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(206.778219,849.869841) scale(0.528243)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Quality criteria are satisfied</text>
+		
+</g>
+
+
+<g>
+	<rect x="486.463528" y="763.794486" width="87.615525" height="81.695906" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(494.463528,779.394486) scale(0.276294)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operations monitoring is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="582.079054" y="763.794486" width="63.711644" height="81.695906" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(590.079054,779.394486) scale(0.414164)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Safety is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="486.463528" y="853.490393" width="54.747689" height="60.339738" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(494.463528,869.090393) scale(0.175488)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Change management is OK</text>
+		
+</g>
+
+
+<g>
+	<rect x="198.778219" y="663.847619" width="168.133863" height="162.422222" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(206.778219,679.447619) scale(0.316946)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Control center and remote station buildings are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="374.912082" y="763.794486" width="103.551446" height="88.102757" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(382.912082,779.394486) scale(0.260570)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Business context is well understood</text>
+		
+</g>
+
+
+<g>
+	<rect x="591.043009" y="921.830131" width="54.747689" height="26.169869" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="591.043009" y="853.490393" width="54.747689" height="26.169869" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="374.912082" y="859.897243" width="103.551446" height="88.102757" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(382.912082,875.497243) scale(0.479997)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Certification is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="486.463528" y="921.830131" width="54.747689" height="26.169869" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="549.211217" y="904.745196" width="33.831792" height="43.254804" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(557.211217,920.345196) scale(0.123832)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Logistics is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="549.211217" y="853.490393" width="33.831792" height="43.254804" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(557.211217,869.090393) scale(0.068795)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Life cycle management is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="52.000000" y="663.847619" width="138.778219" height="284.152381" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(60.000000,679.447619) scale(0.336563)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Risk management and contingency are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="525.077490" y="663.847619" width="120.713207" height="91.946867" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(533.077490,679.447619) scale(0.454484)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System maintenance is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="591.043009" y="887.660262" width="54.747689" height="26.169869" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="374.912082" y="663.847619" width="142.165409" height="91.946867" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(382.912082,679.447619) scale(0.423943)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Cyber security governance is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="799.885835" y="262.056244" width="70.057082" height="44.244641" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(807.885835,277.656244) scale(0.296366)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data security is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="669.790698" y="79.200000" width="122.095137" height="227.100885" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(677.790698,94.800000) scale(0.460482)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data of all types are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="799.885835" y="79.200000" width="148.114165" height="174.856244" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(807.885835,94.800000) scale(0.491496)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All actions with data are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="877.942918" y="262.056244" width="31.028541" height="44.244641" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(885.942918,277.656244) scale(0.092087)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data flow is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="916.971459" y="262.056244" width="31.028541" height="44.244641" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(924.971459,277.656244) scale(0.039137)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data presentation is clear and effective</text>
+		
+</g>
+
+
+<g>
+	<rect x="669.790698" y="608.601770" width="108.272529" height="219.079646" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(677.790698,624.201770) scale(0.480586)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Third parties are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="786.063227" y="608.601770" width="83.504416" height="147.370284" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(794.063227,624.201770) scale(0.260434)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">No threats or threat agents</text>
+		
+</g>
+
+
+<g>
+	<rect x="871.031613" y="763.972054" width="48.645591" height="27.854681" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="871.031613" y="799.826735" width="48.645591" height="27.854681" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="927.677204" y="763.972054" width="20.322796" height="63.709362" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(935.677204,779.572054) scale(0.011850)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Links with media\press are established</text>
+		
+</g>
+
+
+<g>
+	<rect x="877.567643" y="608.601770" width="70.432357" height="147.370284" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(885.567643,624.201770) scale(0.138294)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Government (local and departments) are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="786.063227" y="763.972054" width="76.968387" height="63.709362" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(794.063227,779.572054) scale(0.218996)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Standardization bodies are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="917.838760" y="865.281416" width="30.161240" height="37.359292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(925.838760,880.881416) scale(0.025879)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Requirements Engineering stage is dealt with effectivelly</text>
+		
+</g>
+
+
+<g>
+	<rect x="765.193798" y="865.281416" width="68.322481" height="82.718584" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(773.193798,880.881416) scale(0.129768)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Design is aligned with actual requirements</text>
+		
+</g>
+
+
+<g>
+	<rect x="841.516279" y="865.281416" width="68.322481" height="82.718584" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(849.516279,880.881416) scale(0.121117)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Integration and system delivery stages are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="669.790698" y="865.281416" width="87.403101" height="82.718584" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(677.790698,880.881416) scale(0.354182)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operation stage is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="917.838760" y="910.640708" width="30.161240" height="37.359292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(925.838760,926.240708) scale(0.073756)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Disposal stage is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="669.790698" y="343.900885" width="130.768147" height="227.100885" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(677.790698,359.500885) scale(0.747188)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All roles are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="808.558844" y="343.900885" width="139.441156" height="61.147319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(816.558844,359.500885) scale(0.918461)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Training is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="808.558844" y="413.048204" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(816.558844,428.648204) scale(0.040929)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Employees understand the importance of safety and cyber security</text>
+		
+</g>
+
+
+<g>
+	<rect x="857.705896" y="413.048204" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(865.705896,428.648204) scale(0.104779)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">IT hygiene is appropriate</text>
+		
+</g>
+
+
+<g>
+	<rect x="906.852948" y="413.048204" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(914.852948,428.648204) scale(0.060918)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Employees have required education\knowledge</text>
+		
+</g>
+
+
+<g>
+	<rect x="808.558844" y="454.536596" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(816.558844,470.136596) scale(0.070797)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Employees have required qualification</text>
+		
+</g>
+
+
+<g>
+	<rect x="808.558844" y="496.024987" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(816.558844,511.624987) scale(0.070797)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Awareness is at the appropriate level</text>
+		
+</g>
+
+
+<g>
+	<rect x="808.558844" y="537.513378" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(816.558844,553.113378) scale(0.063890)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Employees have required Experience\Skills</text>
+		
+</g>
+
+
+<g>
+	<rect x="857.705896" y="454.536596" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(865.705896,470.136596) scale(0.113891)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Health and Safety is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="906.852948" y="454.536596" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(914.852948,470.136596) scale(0.074842)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Staff retention program is in place</text>
+		
+</g>
+
+
+<g>
+	<rect x="857.705896" y="496.024987" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(865.705896,511.624987) scale(0.074842)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Procedures for new personnel are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="857.705896" y="537.513378" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(865.705896,553.113378) scale(0.067166)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Procedures for leaving personnel are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="906.852948" y="496.024987" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(914.852948,511.624987) scale(0.045956)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Background checks for appropriate personnel are performed</text>
+		
+</g>
+
+
+<g>
+	<rect x="906.852948" y="537.513378" width="41.147052" height="33.488391" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(914.852948,553.113378) scale(0.056945)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Administration of human resources is effective</text>
+		
+</g>
+
+
+<g>
+	<rect x="60.000000" y="439.995767" width="262.126826" height="178.251852" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,455.595767) scale(0.625322)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">HMI runtime software application(s) is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="386.403248" y="586.513891" width="38.897018" height="31.733728" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(394.403248,602.113891) scale(0.088337)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operating system(s) is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="330.126826" y="439.995767" width="142.070459" height="78.917531" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(338.126826,455.595767) scale(0.354928)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Software applications in use are Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="330.126826" y="526.913298" width="48.276422" height="91.334321" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(338.126826,542.513298) scale(0.093392)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Only authorized access to the system</text>
+		
+</g>
+
+
+<g>
+	<rect x="386.403248" y="526.913298" width="85.794037" height="51.600593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(394.403248,542.513298) scale(0.269267)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Patching management is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="433.300266" y="586.513891" width="38.897018" height="31.733728" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(441.300266,602.113891) scale(0.055468)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Virtualization and virtual servers are Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="496.197284" y="382.747503" width="141.593413" height="184.236934" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(504.197284,398.347503) scale(0.654132)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Control center is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="496.197284" y="100.800000" width="141.593413" height="273.947503" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(504.197284,116.400000) scale(0.654132)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Field devices are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="570.993991" y="574.984437" width="29.398353" height="43.263182" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(578.993991,590.584437) scale(0.049845)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Communication server is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="608.392344" y="574.984437" width="29.398353" height="43.263182" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(616.392344,590.584437) scale(0.039876)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All other embedded systems are Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="496.197284" y="574.984437" width="66.796707" height="43.263182" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(504.197284,590.584437) scale(0.293962)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Power supply is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="60.000000" y="100.800000" width="182.998766" height="157.117743" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,116.400000) scale(0.869785)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Physical layer is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="380.545754" y="100.800000" width="91.651530" height="189.797296" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(388.545754,116.400000) scale(0.262679)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Communication protocols are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="250.998766" y="100.800000" width="121.546989" height="189.797296" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(258.998766,116.400000) scale(0.687155)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All zones are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="250.998766" y="298.597296" width="168.306553" height="103.798471" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(258.998766,314.197296) scale(0.661053)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Network management is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="427.305318" y="298.597296" width="44.891966" height="29.266157" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="427.305318" y="335.863453" width="44.891966" height="29.266157" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="60.000000" y="265.917743" width="182.998766" height="136.478025" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,281.517743) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Security is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="427.305318" y="373.129610" width="44.891966" height="29.266157" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="206.778219" y="855.869841" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(214.778219,871.469841) scale(0.022598)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Readiness for incident response is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="206.778219" y="901.934921" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(214.778219,917.534921) scale(0.023889)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All system components are available</text>
+		
+</g>
+
+
+<g>
+	<rect x="238.804991" y="855.869841" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(246.804991,871.469841) scale(0.039815)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System is sustainable</text>
+		
+</g>
+
+
+<g>
+	<rect x="238.804991" y="901.934921" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(246.804991,917.534921) scale(0.038006)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System integrity is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="270.831764" y="855.869841" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(278.831764,871.469841) scale(0.032159)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Confidentiality is ensured</text>
+		
+</g>
+
+
+<g>
+	<rect x="270.831764" y="901.934921" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(278.831764,917.534921) scale(0.055741)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System is Agile</text>
+		
+</g>
+
+
+<g>
+	<rect x="302.858537" y="855.869841" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(310.858537,871.469841) scale(0.039815)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Maintainability is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="334.885309" y="855.869841" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(342.885309,871.469841) scale(0.049184)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operability is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="302.858537" y="901.934921" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(310.858537,917.534921) scale(0.044006)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System is resiliant</text>
+		
+</g>
+
+
+<g>
+	<rect x="334.885309" y="901.934921" width="24.026773" height="38.065079" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(342.885309,917.534921) scale(0.046451)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System is reliable</text>
+		
+</g>
+
+
+<g>
+	<rect x="494.463528" y="785.394486" width="31.807763" height="22.047953" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="494.463528" y="815.442439" width="31.807763" height="22.047953" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="534.271291" y="785.394486" width="31.807763" height="22.047953" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="534.271291" y="815.442439" width="31.807763" height="22.047953" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="590.079054" y="785.394486" width="19.855822" height="32.063938" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(598.079054,800.994486) scale(0.019126)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Safety analysis is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="617.934876" y="785.394486" width="19.855822" height="32.063938" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(625.934876,800.994486) scale(0.020082)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Safety Process is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="590.079054" y="825.458424" width="47.711644" height="12.031969" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="494.463528" y="875.090393" width="15.373844" height="30.739738" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="517.837372" y="875.090393" width="15.373844" height="30.739738" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="309.721416" y="685.447619" width="49.190665" height="104.657778" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(317.721416,701.047619) scale(0.203374)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Facilities are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="206.778219" y="685.447619" width="94.943197" height="132.822222" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(214.778219,701.047619) scale(0.357533)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Physical security is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="309.721416" y="798.105397" width="49.190665" height="20.164444" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="785.394486" width="30.220579" height="25.251378" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="818.645865" width="30.220579" height="25.251378" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="421.132660" y="785.394486" width="20.665434" height="36.335171" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(429.132660,800.994486) scale(0.014294)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Customer requirements are analysed</text>
+		
+</g>
+
+
+<g>
+	<rect x="449.798094" y="785.394486" width="20.665434" height="36.335171" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(457.798094,800.994486) scale(0.021130)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Business planning is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="421.132660" y="829.729657" width="49.330868" height="14.167586" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="881.497243" width="30.220579" height="25.251378" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="914.748622" width="30.220579" height="25.251378" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="421.132660" y="881.497243" width="20.665434" height="36.335171" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(429.132660,897.097243) scale(0.026999)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Inspections are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="449.798094" y="881.497243" width="20.665434" height="36.335171" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(457.798094,897.097243) scale(0.025578)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Documentation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="421.132660" y="925.832414" width="49.330868" height="14.167586" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="60.000000" y="856.106667" width="29.365205" height="37.946667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,871.706667) scale(0.039777)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Risk assessment and analysis are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="60.000000" y="902.053333" width="29.365205" height="37.946667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,917.653333) scale(0.055688)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Disruption planning is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="97.365205" y="856.106667" width="29.365205" height="37.946667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(105.365205,871.706667) scale(0.048007)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Replacement strategies are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="97.365205" y="902.053333" width="29.365205" height="37.946667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(105.365205,917.653333) scale(0.060531)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Resource planning is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="134.730411" y="856.106667" width="48.047808" height="22.631111" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="134.730411" y="886.737778" width="48.047808" height="22.631111" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="134.730411" y="917.368889" width="48.047808" height="22.631111" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="60.000000" y="685.447619" width="122.778219" height="162.659048" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(68.000000,701.047619) scale(0.444909)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Incident management is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="589.434094" y="685.447619" width="20.178302" height="38.897911" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(597.434094,701.047619) scale(0.014508)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Diverse maintenance team is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="533.077490" y="685.447619" width="48.356604" height="62.346867" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(541.077490,701.047619) scale(0.116223)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Maintenance procedures are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="617.612396" y="685.447619" width="20.178302" height="38.897911" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(625.612396,701.047619) scale(0.018135)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Remote maintenance is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="589.434094" y="732.345530" width="48.356604" height="15.448956" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="685.447619" width="30.332974" height="27.173434" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="382.912082" y="720.621053" width="30.332974" height="27.173434" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="421.245056" y="685.447619" width="30.332974" height="27.173434" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="421.245056" y="720.621053" width="30.332974" height="27.173434" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="459.578029" y="685.447619" width="20.749730" height="38.897911" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(467.578029,701.047619) scale(0.012686)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Organisational security culture is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="488.327760" y="685.447619" width="20.749730" height="38.897911" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(496.327760,701.047619) scale(0.012686)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Unknown vulnerabilities are anticipated</text>
+		
+</g>
+
+
+<g>
+	<rect x="459.578029" y="732.345530" width="49.499461" height="15.448956" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="807.885835" y="283.656244" width="23.028541" height="14.644641" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="838.914376" y="283.656244" width="23.028541" height="14.644641" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="210.400472" width="24.598611" height="39.950206" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,226.000472) scale(0.026344)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Time signal (GPS clock) is precise</text>
+		
+</g>
+
+
+<g>
+	<rect x="677.790698" y="258.350678" width="24.598611" height="39.950206" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,273.950678) scale(0.068899)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Emails are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="677.790698" y="155.600236" width="49.047569" height="46.800236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,171.200236) scale(0.245890)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Alarms  are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="710.389308" y="210.400472" width="32.748263" height="30.360165" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(718.389308,226.000472) scale(0.075853)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">SMS communication is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="751.137572" y="210.400472" width="32.748263" height="30.360165" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(759.137572,226.000472) scale(0.062308)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Software data\Settigns is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="710.389308" y="248.760637" width="46.331018" height="20.770124" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="100.800000" width="106.095137" height="46.800236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,116.400000) scale(0.426587)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Sensor readings are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="710.389308" y="277.530761" width="46.331018" height="20.770124" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="734.838266" y="155.600236" width="49.047569" height="46.800236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(742.838266,171.200236) scale(0.215153)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Event data is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="764.720326" y="248.760637" width="19.165509" height="49.540248" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(772.720326,264.360637) scale(0.012213)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operator actions data is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="807.885835" y="199.321871" width="20.022833" height="46.734373" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(815.885835,214.921871) scale(0.014966)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Acquisitions (Logging) is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="835.908668" y="199.321871" width="20.022833" height="46.734373" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(843.908668,214.921871) scale(0.017460)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Storage for review is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="863.931501" y="199.321871" width="20.022833" height="46.734373" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(871.931501,214.921871) scale(0.019955)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Forensics is possible</text>
+		
+</g>
+
+
+<g>
+	<rect x="891.954334" y="199.321871" width="20.022833" height="46.734373" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(899.954334,214.921871) scale(0.024650)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data backup is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="885.727038" y="100.800000" width="54.272962" height="90.521871" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(893.727038,116.400000) scale(0.284769)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Analysis is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="807.885835" y="100.800000" width="69.841203" height="90.521871" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(815.885835,116.400000) scale(0.373897)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Reporting is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="919.977167" y="199.321871" width="20.022833" height="46.734373" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(927.977167,214.921871) scale(0.019048)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Access to data is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="677.790698" y="797.299932" width="92.272529" height="22.381484" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="630.201770" width="92.272529" height="159.098162" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,645.801770) scale(0.240759)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Third parties of all types are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="794.063227" y="630.201770" width="29.752208" height="27.934367" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="831.815435" y="630.201770" width="29.752208" height="27.934367" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="794.063227" y="666.136137" width="29.752208" height="27.934367" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="831.815435" y="666.136137" width="29.752208" height="27.934367" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="794.063227" y="702.070504" width="42.336278" height="18.950775" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="794.063227" y="729.021279" width="42.336278" height="18.950775" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="844.399504" y="702.070504" width="17.168139" height="45.901550" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(852.399504,717.670504) scale(0.006404)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">No outsider attacks</text>
+		
+</g>
+
+
+<g>
+	<rect x="885.567643" y="630.201770" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(893.567643,645.801770) scale(0.046980)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Regulation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="916.783822" y="630.201770" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(924.783822,645.801770) scale(0.027840)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Advice is useful and timely</text>
+		
+</g>
+
+
+<g>
+	<rect x="885.567643" y="672.125198" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(893.567643,687.725198) scale(0.057822)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Funding is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="916.783822" y="672.125198" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(924.783822,687.725198) scale(0.050112)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Policies are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="885.567643" y="714.048626" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(893.567643,729.648626) scale(0.044217)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Legislation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="916.783822" y="714.048626" width="23.216178" height="33.923428" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(924.783822,729.648626) scale(0.030067)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Political landscape is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="794.063227" y="785.572054" width="14.989462" height="34.109362" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="817.052689" y="785.572054" width="14.989462" height="34.109362" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="840.042151" y="785.572054" width="14.989462" height="34.109362" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="773.193798" y="886.881416" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="803.355039" y="886.881416" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="773.193798" y="917.440708" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="803.355039" y="917.440708" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="849.516279" y="886.881416" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="879.677519" y="886.881416" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="849.516279" y="917.440708" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="879.677519" y="917.440708" width="22.161240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="886.881416" width="23.761240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="917.440708" width="23.761240" height="22.559292" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="709.551938" y="886.881416" width="15.820930" height="32.745723" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="733.372868" y="886.881416" width="15.820930" height="32.745723" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="709.551938" y="927.627139" width="39.641860" height="12.372861" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="677.790698" y="481.095133" width="27.076613" height="36.953319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,496.695133) scale(0.046153)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Software Engineers are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="677.790698" y="526.048451" width="27.076613" height="36.953319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,541.648451) scale(0.050166)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">System Designers are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="712.867311" y="481.095133" width="35.845767" height="27.962655" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="756.713078" y="481.095133" width="35.845767" height="27.962655" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="712.867311" y="517.057788" width="21.230511" height="45.943982" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(720.867311,532.657788) scale(0.036323)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Managers are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="742.097822" y="517.057788" width="21.230511" height="45.943982" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(750.097822,532.657788) scale(0.034053)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Engineers are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="677.790698" y="365.500885" width="114.768147" height="107.594248" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(685.790698,381.100885) scale(0.643022)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Operators are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="771.328333" y="517.057788" width="21.230511" height="45.943982" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(779.328333,532.657788) scale(0.060538)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">CSO is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="816.558844" y="365.500885" width="18.288231" height="31.547319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(824.558844,381.100885) scale(0.009168)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Training needs are anlysed</text>
+		
+</g>
+
+
+<g>
+	<rect x="842.847075" y="365.500885" width="18.288231" height="31.547319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(850.847075,381.100885) scale(0.009534)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Individual training is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="869.135307" y="365.500885" width="18.288231" height="31.547319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(877.135307,381.100885) scale(0.012545)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Team training is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="895.423538" y="365.500885" width="18.288231" height="31.547319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(903.423538,381.100885) scale(0.010834)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Use cases are examined</text>
+		
+</g>
+
+
+<g>
+	<rect x="921.711769" y="365.500885" width="18.288231" height="31.547319" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(929.711769,381.100885) scale(0.004334)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Training on operating instructions and procedures is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="171.533151" y="461.595767" width="142.593674" height="80.116667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(179.533151,477.195767) scale(0.507186)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Plant control &amp; view is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="171.533151" y="549.712434" width="99.566910" height="60.535185" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(179.533151,565.312434) scale(0.334803)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">SCADA control &amp; view is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="279.100061" y="549.712434" width="35.026764" height="60.535185" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(287.100061,565.312434) scale(0.220217)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">GUI is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="68.000000" y="461.595767" width="95.533151" height="148.651852" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(76.000000,477.195767) scale(0.331388)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Monitoring software is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="338.126826" y="461.595767" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="338.126826" y="490.254533" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="376.432671" y="461.595767" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="376.432671" y="490.254533" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="414.738516" y="461.595767" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="414.738516" y="490.254533" width="30.305845" height="20.658765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="453.044362" y="461.595767" width="11.152923" height="49.317531" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="338.126826" y="548.513298" width="32.276422" height="15.244774" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="338.126826" y="571.758072" width="32.276422" height="15.244774" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="338.126826" y="595.002845" width="32.276422" height="15.244774" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="394.403248" y="548.513298" width="17.931346" height="22.000593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="420.334593" y="548.513298" width="17.931346" height="22.000593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="446.265939" y="548.513298" width="17.931346" height="22.000593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="504.197284" y="404.347503" width="125.593413" height="143.794472" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(512.197284,419.947503) scale(0.407714)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Primary control center is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="504.197284" y="556.141974" width="125.593413" height="2.842462" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="554.294814" y="282.984775" width="33.747942" height="28.705091" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="504.197284" y="202.692387" width="68.339093" height="72.292387" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(512.197284,218.292387) scale(0.495635)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">PLCs are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="580.536378" y="202.692387" width="49.254320" height="72.292387" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(588.536378,218.292387) scale(0.138560)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Passive components are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="504.197284" y="282.984775" width="42.097530" height="83.762728" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(512.197284,298.584775) scale(0.075514)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Active components (actuators) are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="504.197284" y="122.400000" width="125.593413" height="72.292387" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(512.197284,138.000000) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">RTUs are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="596.042756" y="282.984775" width="33.747942" height="28.705091" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="554.294814" y="319.689866" width="19.831961" height="47.057637" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(562.294814,335.289866) scale(0.022176)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Position is stable</text>
+		
+</g>
+
+
+<g>
+	<rect x="582.126775" y="319.689866" width="19.831961" height="47.057637" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(590.126775,335.289866) scale(0.011740)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Shelter from adverse weather is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="609.958737" y="319.689866" width="19.831961" height="47.057637" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(617.958737,335.289866) scale(0.021009)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">No device fragility</text>
+		
+</g>
+
+
+<g>
+	<rect x="504.197284" y="596.584437" width="21.398353" height="13.663182" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="533.595638" y="596.584437" width="21.398353" height="13.663182" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="68.000000" y="122.400000" width="68.561960" height="127.517743" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(76.000000,138.000000) scale(0.202785)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Wired communications are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="144.561960" y="122.400000" width="90.436806" height="67.287635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(152.561960,138.000000) scale(0.258461)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Wireless communications are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="144.561960" y="197.687635" width="90.436806" height="52.230108" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(152.561960,213.287635) scale(0.408097)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">All equipment is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="388.545754" y="122.400000" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="430.371519" y="122.400000" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="388.545754" y="156.039459" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="430.371519" y="156.039459" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="388.545754" y="189.678918" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="430.371519" y="189.678918" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="388.545754" y="223.318377" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="388.545754" y="256.957837" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="430.371519" y="223.318377" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="430.371519" y="256.957837" width="33.825765" height="25.639459" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="353.621256" y="212.967775" width="10.924498" height="69.629521" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="258.998766" y="212.967775" width="86.622491" height="69.629521" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(266.998766,228.567775) scale(0.367825)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Corporate zone is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="258.998766" y="122.400000" width="105.546989" height="82.567775" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(266.998766,138.000000) scale(0.518212)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Control zone is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="307.090731" y="374.996277" width="40.091966" height="19.399490" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="355.182697" y="320.197296" width="24.061311" height="33.099236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(363.182697,335.797296) scale(0.031101)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Redundancy management is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="387.244008" y="320.197296" width="24.061311" height="33.099236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(395.244008,335.797296) scale(0.044196)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Configuration is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="355.182697" y="361.296531" width="24.061311" height="33.099236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(363.182697,376.896531) scale(0.027088)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Service Level Agreements are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="258.998766" y="320.197296" width="40.091966" height="74.198471" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(266.998766,335.797296) scale(0.089628)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Performance management is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="307.090731" y="320.197296" width="40.091966" height="46.798981" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(315.090731,335.797296) scale(0.132083)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Network plans is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="387.244008" y="361.296531" width="24.061311" height="33.099236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(395.244008,376.896531) scale(0.032297)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Network monitoring is Okay</text>
+		
+</g>
+
+
+<g>
+	<rect x="68.000000" y="287.517743" width="66.999471" height="106.878025" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(76.000000,303.117743) scale(0.354163)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Isolation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="209.665667" y="287.517743" width="25.333098" height="35.079259" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(217.665667,303.117743) scale(0.074784)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">IDS\IPS is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="142.999471" y="287.517743" width="58.666196" height="35.079259" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(150.999471,303.117743) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">IDS</text>
+		
+</g>
+
+
+<g>
+	<rect x="142.999471" y="330.597002" width="31.999718" height="27.899383" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="142.999471" y="366.496384" width="31.999718" height="27.899383" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="182.999189" y="330.597002" width="21.999788" height="39.865844" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(190.999189,346.197002) scale(0.017360)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Data encryption (cryptography) is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="212.998977" y="330.597002" width="21.999788" height="39.865844" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(220.998977,346.197002) scale(0.028408)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Device discovery is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="182.999189" y="378.462845" width="51.999577" height="15.932922" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="317.721416" y="707.047619" width="33.190665" height="33.528889" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(325.721416,722.647619) scale(0.162790)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Power is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="317.721416" y="748.576508" width="33.190665" height="12.764444" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="317.721416" y="769.340952" width="33.190665" height="12.764444" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.944137" y="707.047619" width="26.777279" height="53.790123" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(274.944137,722.647619) scale(0.056132)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Access points are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="214.778219" y="768.837743" width="35.471599" height="16.716049" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="214.778219" y="793.553792" width="35.471599" height="16.716049" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="214.778219" y="707.047619" width="44.165918" height="53.790123" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(222.778219,722.647619) scale(0.172585)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">CCTV system is OK</text>
+		
+</g>
+
+
+<g>
+	<rect x="258.249818" y="768.837743" width="35.471599" height="16.716049" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="258.249818" y="793.553792" width="35.471599" height="16.716049" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="68.000000" y="783.002491" width="87.648516" height="57.104176" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(76.000000,798.602491) scale(1.000000)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">No loss</text>
+		
+</g>
+
+
+<g>
+	<rect x="163.648516" y="783.002491" width="11.129703" height="57.104176" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="68.000000" y="707.047619" width="106.778219" height="67.954872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(76.000000,722.647619) scale(0.350225)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Incident response (cross IT</text>
+		
+</g>
+
+
+<g>
+	<rect x="541.077490" y="707.047619" width="12.178302" height="19.164578" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="561.255792" y="707.047619" width="12.178302" height="19.164578" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="541.077490" y="734.212197" width="32.356604" height="5.582289" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="177.200236" width="12.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="706.314482" y="177.200236" width="12.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="122.400000" width="16.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="710.314482" y="122.400000" width="16.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="734.838266" y="122.400000" width="16.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="759.362051" y="122.400000" width="16.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="742.838266" y="177.200236" width="12.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="763.362051" y="177.200236" width="12.523784" height="17.200236" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="893.727038" y="122.400000" width="15.136481" height="26.460936" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="916.863519" y="122.400000" width="15.136481" height="26.460936" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="893.727038" y="156.860936" width="15.136481" height="26.460936" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="916.863519" y="156.860936" width="15.136481" height="26.460936" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="815.885835" y="122.400000" width="22.920601" height="19.568748" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="846.806436" y="122.400000" width="22.920601" height="19.568748" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="815.885835" y="149.968748" width="33.227468" height="12.676561" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="815.885835" y="170.645310" width="33.227468" height="12.676561" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="857.113304" y="149.968748" width="12.613734" height="33.353123" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="809.299932" width="34.136265" height="2.381484" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="727.926962" y="809.299932" width="34.136265" height="2.381484" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="741.972384" y="701.801102" width="20.090843" height="29.499499" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="651.801770" width="76.272529" height="41.999332" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(693.790698,667.401770) scale(0.448456)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Vendors are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="685.790698" y="701.801102" width="48.181686" height="29.499499" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="739.300600" width="34.136265" height="16.999666" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="764.300266" width="34.136265" height="16.999666" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="727.926962" y="739.300600" width="34.136265" height="16.999666" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="727.926962" y="764.300266" width="34.136265" height="16.999666" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="387.100885" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="415.765634" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="685.790698" y="444.430383" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="721.380080" y="387.100885" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="756.969462" y="387.100885" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="721.380080" y="415.765634" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="721.380080" y="444.430383" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="756.969462" y="415.765634" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="756.969462" y="444.430383" width="27.589382" height="20.664749" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="254.307415" y="483.195767" width="51.819411" height="50.516667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(262.307415,498.795767) scale(0.196378)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Plant control is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="179.533151" y="483.195767" width="66.774264" height="50.516667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(187.533151,498.795767) scale(0.330562)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Plant view is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="179.533151" y="571.312434" width="28.626764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="179.533151" y="590.780026" width="28.626764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="216.159915" y="571.312434" width="28.626764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="216.159915" y="590.780026" width="28.626764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="252.786679" y="571.312434" width="10.313382" height="30.935185" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="287.100061" y="571.312434" width="19.026764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="287.100061" y="590.780026" width="19.026764" height="11.467593" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="564.046946" width="35.766576" height="15.100337" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="587.147282" width="35.766576" height="15.100337" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="119.766576" y="564.046946" width="35.766576" height="15.100337" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="483.195767" width="79.533151" height="72.851178" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(84.000000,498.795767) scale(0.200547)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Alarms issuing and control are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="119.766576" y="587.147282" width="35.766576" height="15.100337" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="425.947503" width="50.796707" height="79.281765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(520.197284,441.547503) scale(0.157594)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">HMI workstations are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="512.197284" y="513.229268" width="50.796707" height="26.912706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="570.993991" y="513.229268" width="21.398353" height="26.912706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="570.993991" y="425.947503" width="50.796707" height="79.281765" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(578.993991,441.547503) scale(0.164757)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Historian server is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="600.392344" y="513.229268" width="21.398353" height="26.912706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="224.292387" width="22.169547" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="249.638581" width="22.169547" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="542.366831" y="224.292387" width="22.169547" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="542.366831" y="249.638581" width="22.169547" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="588.536378" y="258.087312" width="33.254320" height="8.897462" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="588.536378" y="224.292387" width="33.254320" height="25.794925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="304.584775" width="26.097530" height="12.720909" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="325.305684" width="26.097530" height="12.720909" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="346.026593" width="26.097530" height="12.720909" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="144.000000" width="25.598118" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="512.197284" y="169.346194" width="25.598118" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="545.795402" y="144.000000" width="25.598118" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="545.795402" y="169.346194" width="25.598118" height="17.346194" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="579.393520" y="144.000000" width="17.198589" height="25.794925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="604.592109" y="144.000000" width="17.198589" height="25.794925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="579.393520" y="177.794925" width="42.397177" height="8.897462" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="144.000000" width="22.280980" height="22.262212" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="106.280980" y="144.000000" width="22.280980" height="22.262212" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="174.262212" width="22.280980" height="22.262212" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="106.280980" y="174.262212" width="22.280980" height="22.262212" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="204.524424" width="32.374640" height="14.696659" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="227.221083" width="32.374640" height="14.696659" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="116.374640" y="204.524424" width="12.187320" height="37.393318" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="152.561960" y="144.000000" width="57.949444" height="37.687635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(160.561960,159.600000) scale(0.174789)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Radio communication is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="218.511404" y="144.000000" width="8.487361" height="37.687635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="152.561960" y="219.287635" width="12.609201" height="22.630108" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="173.171161" y="219.287635" width="12.609201" height="22.630108" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="193.780363" y="219.287635" width="12.609201" height="22.630108" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="214.389564" y="219.287635" width="12.609201" height="22.630108" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.998766" y="234.567775" width="23.448996" height="16.014761" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.998766" y="258.582535" width="23.448996" height="16.014761" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="298.447762" y="234.567775" width="15.586747" height="24.019681" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="322.034509" y="234.567775" width="15.586747" height="24.019681" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="298.447762" y="266.587455" width="39.173494" height="8.009840" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="308.804618" y="144.000000" width="19.870568" height="22.483887" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="336.675186" y="144.000000" width="19.870568" height="22.483887" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="308.804618" y="174.483887" width="19.870568" height="22.483887" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.998766" y="144.000000" width="33.805852" height="52.967775" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(274.998766,159.600000) scale(0.080642)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Local control LAN is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="336.675186" y="174.483887" width="19.870568" height="22.483887" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.998766" y="376.862943" width="24.091966" height="9.532824" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="266.998766" y="341.797296" width="24.091966" height="27.065648" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="315.090731" y="341.797296" width="8.045983" height="17.198981" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="331.136714" y="341.797296" width="8.045983" height="17.198981" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="380.182763" width="50.999471" height="6.213004" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="309.117743" width="50.999471" height="63.065021" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(84.000000,324.717743) scale(0.158512)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Logical isolation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="150.999471" y="309.117743" width="17.333098" height="5.479259" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="176.332569" y="309.117743" width="17.333098" height="5.479259" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="325.721416" y="728.647619" width="4.595333" height="3.928889" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="338.316749" y="728.647619" width="4.595333" height="3.928889" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="274.944137" y="728.647619" width="10.777279" height="8.095062" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="274.944137" y="744.742681" width="10.777279" height="8.095062" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="222.778219" y="728.647619" width="16.110612" height="8.095062" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="222.778219" y="744.742681" width="16.110612" height="8.095062" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="246.888831" y="728.647619" width="4.055306" height="24.190123" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="804.602491" width="23.859406" height="9.752088" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="822.354579" width="23.859406" height="9.752088" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="107.859406" y="804.602491" width="23.859406" height="9.752088" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="107.859406" y="822.354579" width="23.859406" height="9.752088" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="139.718813" y="804.602491" width="7.929703" height="27.504176" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="146.555871" y="728.647619" width="20.222348" height="15.177436" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="76.000000" y="728.647619" width="34.333522" height="38.354872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(84.000000,744.247619) scale(0.073452)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Response procedures are Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="118.333522" y="728.647619" width="20.222348" height="38.354872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(126.333522,744.247619) scale(0.029322)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Forensics is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="146.555871" y="751.825055" width="20.222348" height="15.177436" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="693.790698" y="673.401770" width="9.068132" height="12.399332" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="710.858830" y="673.401770" width="9.068132" height="12.399332" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="727.926962" y="673.401770" width="9.068132" height="12.399332" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="744.995094" y="673.401770" width="9.068132" height="12.399332" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="693.790698" y="713.801102" width="12.090843" height="9.499499" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="713.881541" y="713.801102" width="12.090843" height="9.499499" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="262.307415" y="504.795767" width="13.909705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="262.307415" y="519.254101" width="13.909705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="284.217120" y="504.795767" width="13.909705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="284.217120" y="519.254101" width="13.909705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="187.533151" y="504.795767" width="15.509705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="187.533151" y="519.254101" width="15.509705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="211.042857" y="504.795767" width="15.509705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="211.042857" y="519.254101" width="15.509705" height="6.458333" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="234.552562" y="504.795767" width="3.754853" height="20.916667" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="84.000000" y="504.795767" width="12.438043" height="17.625589" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="84.000000" y="530.421356" width="12.438043" height="17.625589" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="104.438043" y="504.795767" width="17.547554" height="12.500471" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="129.985597" y="504.795767" width="17.547554" height="12.500471" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="104.438043" y="525.296239" width="9.031703" height="22.750707" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="121.469746" y="525.296239" width="9.031703" height="22.750707" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="138.501449" y="525.296239" width="9.031703" height="22.750707" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="520.197284" y="482.156562" width="13.398353" height="15.072706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="541.595638" y="482.156562" width="13.398353" height="15.072706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="520.197284" y="447.547503" width="34.796707" height="26.609059" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="520.197284" y="525.229268" width="13.398353" height="6.912706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="541.595638" y="525.229268" width="13.398353" height="6.912706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="578.993991" y="447.547503" width="34.796707" height="38.145412" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+<text 
+	data-notex="1" 
+	text-anchor="start"
+	transform="translate(586.993991,463.147503) scale(0.067517)"
+	style="font-family: Open Sans, verdana, arial, sans-serif !important; font-size: 12px; fill: rgb(0, 0, 0); fill-opacity: 1.00; white-space: pre;" 
+	data-math="N">Database implementation is Ok</text>
+		
+</g>
+
+
+<g>
+	<rect x="578.993991" y="493.692915" width="34.796707" height="3.536353" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="596.536378" y="236.292387" width="4.627160" height="5.794925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="609.163538" y="236.292387" width="4.627160" height="5.794925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="160.561960" y="165.600000" width="4.487361" height="8.087635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="173.049321" y="165.600000" width="4.487361" height="8.087635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="185.536682" y="165.600000" width="4.487361" height="8.087635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="198.024043" y="165.600000" width="4.487361" height="8.087635" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="274.998766" y="165.600000" width="4.902926" height="12.911850" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="287.901692" y="165.600000" width="4.902926" height="12.911850" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="274.998766" y="186.511850" width="17.805852" height="2.455925" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="274.998766" y="353.797296" width="0.045983" height="7.065648" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="283.044748" y="353.797296" width="0.045983" height="7.065648" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="84.000000" y="358.361090" width="17.799683" height="5.821674" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="109.799683" y="330.717743" width="9.199788" height="12.732510" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="109.799683" y="351.450253" width="9.199788" height="12.732510" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="84.000000" y="330.717743" width="17.799683" height="19.643347" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="84.000000" y="750.247619" width="0.777841" height="8.754872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="92.777841" y="750.247619" width="0.777841" height="8.754872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="101.555682" y="750.247619" width="0.777841" height="8.754872" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="126.333522" y="750.247619" width="4.222348" height="0.377436" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="126.333522" y="758.625055" width="4.222348" height="0.377436" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="528.197284" y="459.547503" width="0.932236" height="6.609059" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="537.129520" y="459.547503" width="0.932236" height="6.609059" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="546.061755" y="459.547503" width="0.932236" height="6.609059" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="586.993991" y="469.147503" width="5.398353" height="0.272706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="586.993991" y="477.420209" width="5.398353" height="0.272706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="600.392344" y="469.147503" width="5.398353" height="0.272706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+
+<g>
+	<rect x="600.392344" y="477.420209" width="5.398353" height="0.272706" style="fill: rgb(0, 0, 0);opacity:1;fill-opacity:0.00;stroke:rgb(128,128,128);stroke-width:1px;stroke-opacity:1.00;" />
+	
+</g>
+
+</svg>

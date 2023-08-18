@@ -1,0 +1,45 @@
+# 2019-May-31: Initial Draft.
+
+Duqu2.0 : SAND
+	Propagate : SAND
+		Spear-phishing
+		Lateral Movement : SAND
+			Remotely install onto target
+			Gain Domain Admin Rights 
+			Push to Domain Clients : OR
+				Basic - In-mem. RAT 
+				Full  - C&C Platform
+		Start C2 protocol handler : OR
+			SMB Network Pipes
+			Direct TCP 
+			HTTP Concealed in JPEG/GIF 
+	Payload 
+		Reconnaissance
+			Network
+				Hosts
+				Network Shares
+				Detects Networks Sniffers
+			System
+				Host Resources
+				Monitors USB
+				Connected Devices
+				Running Processes 
+				Terminal Sessions
+				Zero Config Parameters
+				Password Stealing
+					SSH/PUTTY
+					VNC 
+					Browser
+					Email
+				Locate Files : OR
+					data.hmi
+					val.dat 
+					/Int/HMI/
+					/LG/HM/ folders
+		Attack 
+			Modify cmd.exe
+			Hijack Remote Desktop
+			Fake SMB server	
+			Forge WPAD Responses
+			Forge HTTP GET Responses
+
