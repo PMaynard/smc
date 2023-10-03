@@ -1,0 +1,113 @@
+  <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+      <desc>example DM</desc>
+      <key id="d0" for="node" attr.name="Probability" attr.type="string"></key>
+      <key id="d1" for="node" attr.name="Type" attr.type="string"></key>
+      <key id="d2" for="edge" attr.name="Type" attr.type="string"></key>
+      <graph id="g0" edgedefault="directed">
+          <desc>example DM</desc>
+          <node id="n0">
+              <desc>Company OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n1">
+              <desc>Personnel OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n2">
+              <desc>Accepting Orders OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <node id="n3">
+              <desc>Postage OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n4">
+              <desc>Processing Orders OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <node id="n5">
+              <desc>Services OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n6">
+              <desc>AWS OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n7">
+              <desc>HTTP OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <node id="n8">
+              <desc>SMTP OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <node id="n9">
+              <desc>Email OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n10">
+              <desc>IMAP OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <node id="n11">
+              <desc>Spreadsheet OK</desc>
+              <data key="d0">1.0</data>
+              <data key="d1"></data>
+          </node>
+          <edge id="e0" source="n0" target="n1">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e1" source="n1" target="n2">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e2" source="n0" target="n3">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e3" source="n3" target="n4">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e4" source="n0" target="n5">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e5" source="n5" target="n6">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e6" source="n6" target="n7">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e7" source="n6" target="n8">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e8" source="n5" target="n9">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e9" source="n9" target="n10">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e10" source="n5" target="n11">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+      </graph>
+  </graphml>

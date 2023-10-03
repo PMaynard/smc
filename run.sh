@@ -1,1 +1,1 @@
-ls *.go | entr -c go run .
+ls *.go | entr -c ./runwithstyle.sh

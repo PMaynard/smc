@@ -1,0 +1,78 @@
+  <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+      <desc>example SAND</desc>
+      <key id="d0" for="graph" attr.name="SrcFormat" attr.type="string"></key>
+      <key id="d1" for="node" attr.name="Operator" attr.type="string"></key>
+      <key id="d2" for="edge" attr.name="Operator" attr.type="string"></key>
+      <graph id="g0" edgedefault="directed">
+          <desc>example SAND</desc>
+          <node id="n0">
+              <desc>Become Root</desc>
+              <data key="d1">OR</data>
+          </node>
+          <node id="n1">
+              <desc>No-auth</desc>
+              <data key="d1">SAND</data>
+          </node>
+          <node id="n2">
+              <desc>Gain user privileges</desc>
+              <data key="d1">SAND</data>
+          </node>
+          <node id="n3">
+              <desc>ftp</desc>
+              <data key="d1">OR</data>
+          </node>
+          <node id="n4">
+              <desc>rsh</desc>
+              <data key="d1">OR</data>
+          </node>
+          <node id="n5">
+              <desc>Local Buffer Overflow</desc>
+              <data key="d1">OR</data>
+          </node>
+          <node id="n6">
+              <desc>Auth</desc>
+              <data key="d1">AND</data>
+          </node>
+          <node id="n7">
+              <desc>ssh</desc>
+              <data key="d1">OR</data>
+          </node>
+          <node id="n8">
+              <desc>rsa</desc>
+              <data key="d1">OR</data>
+          </node>
+          <edge id="e0" source="n0" target="n1">
+              <desc>OR</desc>
+              <data key="d2">OR</data>
+          </edge>
+          <edge id="e1" source="n1" target="n2">
+              <desc>SAND</desc>
+              <data key="d2">SAND</data>
+          </edge>
+          <edge id="e2" source="n2" target="n3">
+              <desc>SAND</desc>
+              <data key="d2">SAND</data>
+          </edge>
+          <edge id="e3" source="n2" target="n4">
+              <desc>SAND</desc>
+              <data key="d2">SAND</data>
+          </edge>
+          <edge id="e4" source="n1" target="n5">
+              <desc>SAND</desc>
+              <data key="d2">SAND</data>
+          </edge>
+          <edge id="e5" source="n0" target="n6">
+              <desc>OR</desc>
+              <data key="d2">OR</data>
+          </edge>
+          <edge id="e6" source="n6" target="n7">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <edge id="e7" source="n6" target="n8">
+              <desc>AND</desc>
+              <data key="d2">AND</data>
+          </edge>
+          <data key="d0">SAND</data>
+      </graph>
+  </graphml>

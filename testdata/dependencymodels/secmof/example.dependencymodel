@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencyModel:Paragon xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dependencyModel="http://www.example.org/dependencyModel" description="Company OK" probability="1.0" Type="AND">
+  <paragon description="Personnel OK" probability="1.0" Type="AND">
+    <paragon description="Accepting Orders OK" probability="1.0"/>
+  </paragon>
+  <paragon description="Postage OK" probability="1.0" Type="AND">
+    <paragon description="Processing Orders OK" probability="1.0"/>
+  </paragon>
+  <paragon description="Services OK" probability="1.0" Type="AND">
+    <paragon description="AWS OK" probability="1.0" Type="AND">
+      <paragon description="HTTP OK" probability="1.0"/>
+      <paragon description="SMTP OK" probability="1.0"/>
+    </paragon>
+    <paragon description="Email OK" probability="1.0" Type="AND">
+      <paragon description="IMAP OK" probability="1.0"/>
+    </paragon>
+    <paragon description="Spreadsheet OK" probability="1.0"/>
+  </paragon>
+</dependencyModel:Paragon>

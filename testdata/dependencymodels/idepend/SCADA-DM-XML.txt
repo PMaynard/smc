@@ -1,0 +1,441 @@
+Secure and safe operation of a SCADA system/System Architecture is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant control is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant control is Ok/Set thresholds are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant control is Ok/Set modes are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant control is Ok/Analogue control is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant control is Ok/Digital start\stop\reset is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok/Process unit support is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok/Diagnostic display is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok/Process unit detail display is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok/Process unit control view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Plant control & view is Ok/Plant view is Ok/Process area view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok/SCADA control interface is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok/CCTV system control interface is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok/MIS interface control is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok/Alarm system control interface is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/SCADA control & view is Ok/Historian control is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/GUI is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/GUI is Ok/Graphical representation is clear
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/GUI is Ok/Semi-graphical representation is clear
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Digital monitoring is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Analogue monitoring is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Previous data is available
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Thresholds are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/View of all alarms is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Shelved alarm view is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Operational alarm display is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Alarm handling is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Alarm SMS interface is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Alarms issuing and control are Ok/Alarm email interface is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/HMI runtime software application(s) is Ok/Monitoring software is Ok/Events display is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Operating system(s) is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Operating system(s) is Okay/Operating system is free from vulnerabilities
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/GIS system is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/Customer invoicing system is Ok 
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/Enterprise management system is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/Archiving software (Historian) is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/Training  simulation software is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/Bespoke applications are Ok and free from bugs
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Software applications in use are Okay/COTs are Ok and free from bugs
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Only authorized access to the system
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Only authorized access to the system/User credentials are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Only authorized access to the system/User privileges are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Only authorized access to the system/Login and logout are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Patching management is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Patching management is Okay/Vendor support is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Patching management is Okay/Policies are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Patching management is Okay/Patching and updates are regular
+Secure and safe operation of a SCADA system/System Architecture is Ok/Software is Ok/Virtualization and virtual servers are Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Graphic card is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Ergonomics is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Client management is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Client management is Ok/Thick clients are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Client management is Ok/Thin clients are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/HMI workstations are Ok/Client management is Ok/Mobile clients are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/MTU (SCADA server) is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/MTU (SCADA server) is Ok/Processor and processing power is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/MTU (SCADA server) is Ok/RAM is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Large screen display is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Database implementation is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Database implementation is Ok/Database schema is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Database implementation is Ok/Stored procedures and functions are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Database implementation is Ok/Real-time processing is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Database implementation is Ok/Database disruption statistics is maintained
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Historian server is Ok/Backups are regular and secure
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Primary control center is Ok/Device hardening is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Control center is Ok/Backup control center is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/IEDs are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/PLCs are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/PLCs are Ok/Safety PLC is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/PLCs are Ok/Control function is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/PLCs are Ok/Ladder logic is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/PLCs are Ok/Settings are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok/Sensors are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok/Sensors are Ok/No sensor overloading
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok/Meters are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok/Meters are Ok/Customer meters are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Passive components are Ok/Meters are Ok/Interllegent meters are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Active components (actuators) are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Active components (actuators) are Ok/Emergency shutdown function is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Active components (actuators) are Ok/Control action is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Active components (actuators) are Ok/Protection relay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/Panel earthing is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/DI module is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/Enclosure is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/DO module is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/DO module is Ok/Interposing relay is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/AI module is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/Communication module is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/RTUs are Ok/Control wiring is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/GPS clock (time signal) is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Position is stable
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/Shelter from adverse weather is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Field devices are Ok/No device fragility
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Communication server is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/All other embedded systems are Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Power supply is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Power supply is Ok/Power supply wiring is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Hardware is Ok/Power supply is Ok/CNI is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Patch cables are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Patch cables are Ok/Serial communication is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Control cable is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Masts\trunks are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Source is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Destination is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Dedicated line is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wired communications are Ok/Ports are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Radio communication is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Radio communication is Ok/Public band is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Radio communication is Ok/Licences radio communication is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Radio communication is Ok/GPRS is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Radio communication is Ok/GMS is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/Wireless communications are Ok/Satellite (mobile) communication is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/All equipment is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/All equipment is Ok/Modems are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/All equipment is Ok/Router is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/All equipment is Ok/Switches are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Physical layer is Ok/All equipment is Ok/Connectors are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/PLC protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/TCP\IP is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/OPC server si Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Standardized protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Proprietary protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Secure mechanisms in protocols are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Latency is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Interoperability is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/Protocol converter is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Communication protocols are Ok/All protocols are Ok/SCADA handshake is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/External zone is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/External zone is Ok/Internet is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok/Ethernet is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok/VPN is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok/Access pointe are secure
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok/Handheld devices are secure
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Corporate zone is Ok/Enterprise LAN is Ok/Other systems are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/PLC network is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Industrial Ethernet is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Remote I\O systems are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Local control LAN is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Local control LAN is Ok/Load bay is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Local control LAN is Ok/Line bay is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Local control LAN is Ok/Generator bay is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All zones are Ok/Control zone is Ok/Remote control is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Fault management is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Redundancy management is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Configuration is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Service Level Agreements are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Performance management is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Performance management is Ok/Actual use of capacity is ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Performance management is Ok/Performance evaluation is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Performance management is Ok/Performance evaluation is Ok/Bandwidth is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Performance management is Ok/Performance evaluation is Ok/Jitter is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Network plans is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Network plans is Ok/New area plans are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Network plans is Ok/Long-term planning is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Network management is Ok/Network monitoring is Okay
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Other networks are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/All networks are available
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Physical isolation is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Airgap is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Firewall is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Default deny policy
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Access control is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Access control is Ok/Authorisation mechanisms are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Isolation is Ok/Logical isolation is Ok/Access control is Ok/Access rights are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/IDS\IPS is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/IDS/IPS is Ok/IDS sensors are Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/IDS/IPS is Ok/Alerting is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Penetration testing is regular
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Network audit and diagnostics is regular
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Data encryption (cryptography) is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Device discovery is Ok
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Security is Ok/Known vulnerabilities are eliminated or otherwise addressed
+Secure and safe operation of a SCADA system/System Architecture is Ok/Networks are Ok/Bandwidth is Okay
+Secure and safe operation of a SCADA system/Management is effective
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/Readiness for incident response is Ok
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/All system components are available
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/System is sustainable
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/System integrity is Ok
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/Confidentiality is ensured
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/System is Agile
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/Maintainability is Ok
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/Operability is Ok
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/System is resiliant
+Secure and safe operation of a SCADA system/Management is effective/Quality criteria are satisfied/System is reliable
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok/Metrics and KPIs are Ok
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok/Metrics and KPIs are Ok/Acceptance level is adequte
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok/Metrics and KPIs are Ok/Baseline is Ok
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok/Metrics and KPIs are Ok/Uptime Metrics are OK
+Secure and safe operation of a SCADA system/Management is effective/Operations monitoring is Ok/Metrics and KPIs are Ok/Throughput Metrics are OK
+Secure and safe operation of a SCADA system/Management is effective/Safety is Ok
+Secure and safe operation of a SCADA system/Management is effective/Safety is Ok/Safety analysis is Ok
+Secure and safe operation of a SCADA system/Management is effective/Safety is Ok/Safety Process is Ok
+Secure and safe operation of a SCADA system/Management is effective/Safety is Ok/Safety control and instrumentation is Ok
+Secure and safe operation of a SCADA system/Management is effective/Change management is OK
+Secure and safe operation of a SCADA system/Management is effective/Change management is OK/Change in function is properly managed
+Secure and safe operation of a SCADA system/Management is effective/Change management is OK/Change in business model is properly managed
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Power is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Power is Ok/CNI is OK
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Power is Ok/Emergency power system
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Water is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Water is Ok/CNI is OK
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Oil is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Facilities are Ok/Oil is Ok/CNI is OK
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Access points are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Access points are Ok/Biometric access control is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Access points are Ok/Passwords are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Access in controlled and monitored
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Gates locks keys are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/CCTV system is OK
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/CCTV system is OK/Camera control is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/CCTV system is OK/Camera images are Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/CCTV system is OK/Interface is Ok
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Physical penetration testing is regular
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/Physical security is Ok/Area is secure
+Secure and safe operation of a SCADA system/Management is effective/Control center and remote station buildings are Ok/No hazards
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood/Business objective(s) is clear
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood/Economic case\Finance\Budget are Ok
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood/Customer requirements are analysed
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood/Business planning is Ok
+Secure and safe operation of a SCADA system/Management is effective/Business context is well understood/Resource constraints are addressed
+Secure and safe operation of a SCADA system/Management is effective/Contract management is Ok
+Secure and safe operation of a SCADA system/Management is effective/Interest and understanding at decision level is Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok/Certification body accreditation is Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok/Assurance testing is Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok/Inspections are Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok/Documentation is Ok
+Secure and safe operation of a SCADA system/Management is effective/Certification is Ok/Compliance is Ok
+Secure and safe operation of a SCADA system/Management is effective/Marketing is Ok
+Secure and safe operation of a SCADA system/Management is effective/Logistics is Ok
+Secure and safe operation of a SCADA system/Management is effective/Life cycle management is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Risk assessment and analysis are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Disruption planning is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Replacement strategies are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Resource planning is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Reporting for regulation customers and stakeholders is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Coordination with all concerned parties is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Personnel management in a case of an incident is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss/No environmental loss
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss/No life loss
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss/No injuries
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss/No financial loss
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/No loss/No loss or damage of material
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT\OT) is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Press\media handling is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Response procedures are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Response procedures are Ok/Response exercises and testing are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Response procedures are Ok/Automated (rule-driven) responses are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Response procedures are Ok/Non-automated alarm responses are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Forensics is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Forensics is Ok/Investigation methodology is Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Forensics is Ok/Investigation capabilities are Ok
+Secure and safe operation of a SCADA system/Management is effective/Risk management and contingency are Ok/Incident management is Ok/Incident response (cross IT/OT) is Ok/Concerned customers are dealt with timely and effectivelly
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Diverse maintenance team is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Maintenance procedures are Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Maintenance procedures are Ok/Replacement is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Maintenance procedures are Ok/Cleaning is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Maintenance procedures are Ok/Repair is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Remote maintenance is Ok
+Secure and safe operation of a SCADA system/Management is effective/System maintenance is Ok/Onsite maintenance is Ok
+Secure and safe operation of a SCADA system/Management is effective/System legacy management is Ok
+Secure and safe operation of a SCADA system/Management is effective/System legacy management is Ok/Asset management system is Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Cyber Security Operations Center (SOC) is Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Cyber security policies are Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Complicance with cyber security regulations is Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Cyber security analytics is Ok
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Organisational security culture is Okay
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Unknown vulnerabilities are anticipated
+Secure and safe operation of a SCADA system/Management is effective/Cyber security governance is Ok/Known vulnerabilities are understood and addressed
+Secure and safe operation of a SCADA system/Data (Information) is properly handled
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data security is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data security is Ok/Appropriate data is encrypted
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data security is Ok/Non-encrypted  data are properly handled 
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Time signal (GPS clock) is precise
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Emails are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Alarms  are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Alarms  are Ok/Control system generated alarms are OK
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Alarms  are Ok/Field device generated alarms are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/SMS communication is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Software data\Settigns is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Configuration data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Sensor readings are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Sensor readings are Ok/Primary\raw data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Sensor readings are Ok/Primary/raw data is Ok/Consumption data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Sensor readings are Ok/Analysed data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Sensor readings are Ok/Backup data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Climate data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Event data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Event data is Ok/Event data generated by control system is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Event data is Ok/Event data generated byfield devices is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data of all types are Ok/Operator actions data is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Acquisitions (Logging) is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Storage for review is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Forensics is possible
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Data backup is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Analysis is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Analysis is Ok/Trending is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Analysis is Ok/Alarm\alert generation is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Analysis is Ok/Real-time parsing
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Analysis is Ok/Calculations and formulas are correct
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok/Periodic reporting is Ok 
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok/Customary reporting is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok/Management reporting is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok/Real-time reporting is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Reporting is Ok/Alerting is Ok
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/All actions with data are Ok/Access to data is Okay
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data flow is Okay
+Secure and safe operation of a SCADA system/Data (Information) is properly handled/Data presentation is clear and effective
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third party support is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third party support is Ok/On-site third party support is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third party support is Ok/Remote third party support is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Supply chain is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Vendors are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Vendors are Ok/Vendors are trustworthy
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Vendors are Ok/Vendors help with expansion
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Vendors are Ok/Vendors do regular updates
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Vendors are Ok/Vendor exposure is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Service providers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Service providers are Ok/Energy service providers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Service providers are Ok/Energy service providers are Ok/CNI is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Service providers are Ok/Other service providers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Equipment and system designers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Equipment and system integrators are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Customers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Third parties are Ok/Third parties of all types are Ok/Manufacturers are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/History of threats is maintained and analysed
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/Current threats are analysed 
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/No software attacks
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/No hardware attacks
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/No protocol attacks
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/No insider attacks
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/No threats or threat agents/No outsider attacks
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/International linkage is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Connections with industry working groups is maintained
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Links with media\press are established
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Regulation is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Advice is useful and timely
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Funding is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Policies are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Legislation is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Government (local and departments) are Ok/Political landscape is Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Standardization bodies are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Standardization bodies are Ok/EU standards are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Standardization bodies are Ok/UK (National) standards are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Standardization bodies are Ok/US standards are Ok
+Secure and safe operation of a SCADA system/External Dependencies (Environment) are recognized and dealt with appropriatly/Standardization bodies are Ok/US standards are Ok/Good practice guides are Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Requirements Engineering stage is dealt with effectivelly
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Requirements Engineering stage is dealt with effectivelly/Stakeholder analysis is ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Design is aligned with actual requirements
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Design is aligned with actual requirements/Design specification is accurate
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Design is aligned with actual requirements/No poor design decisions 
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Design is aligned with actual requirements/Design validation is detailed and accurate
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Design is aligned with actual requirements/Design is secure (security by design)
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Integration and system delivery stages are Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Integration and system delivery stages are Ok/Software development is OK
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Integration and system delivery stages are Ok/Software installation
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Integration and system delivery stages are Ok/Software configuration
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Integration and system delivery stages are Ok/Software compatibility is Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok/Software is well maintained
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok/Versioning is Ok
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok/Updates and patches are timely
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok/Monitoring is persistent 
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Operation stage is Ok/Backups are regular
+Secure and safe operation of a SCADA system/System Life Cycle is Ok/Disposal stage is Ok
+Secure and safe operation of a SCADA system/Employees are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Software Engineers are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/System Designers are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/InfoSec Engineers are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Physical Security Personnel (guards etc.) are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Managers are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Engineers are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Opearators have required capabilities
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Intentions are tracked and observed
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Malicious operators are eliminated
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/All operators are diligent
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/All operators are competent
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Manual supervision is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Automatic supervision is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Operator interaction is Okay
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/Operators are Ok/Situational awareness is Okay
+Secure and safe operation of a SCADA system/Employees are Ok/All roles are Ok/CSO is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok/Training needs are anlysed
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok/Individual training is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok/Team training is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok/Use cases are examined
+Secure and safe operation of a SCADA system/Employees are Ok/Training is Ok/Training on operating instructions and procedures is Ok
+Secure and safe operation of a SCADA system/Employees are Ok/Employees understand the importance of saf

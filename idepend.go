@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"encoding/xml"
 	"fmt"
 	"os"
@@ -25,14 +26,14 @@ type IDependNode struct {
 }
 
 /*********************************************************************/
-func (dm *IDependModel) ParseFile(file string) {
-	rawdata, err := os.ReadFile(file)
+func (dm *IDependModel) ParseFile(in string, out string) error {
+	rawdata, err := os.ReadFile(in)
 	if err != nil {
-		panic(err)
+		return err
 	}
 
 	if err := xml.Unmarshal(rawdata, &dm); err != nil {
-		panic(err)
+		return err
 	}
 
 	/* Sort the entities based on their ID. */
@@ -40,19 +41,36 @@ func (dm *IDependModel) ParseFile(file string) {
 		return dm.Entities[i].ID < dm.Entities[j].ID
 	})
 
+	/* Output file */
+	f, err := os.Create(out)
+	if err != nil {
+		return err
+	}
+	w := bufio.NewWriter(f)
+
 	/* assume the root node is the one with the lowest ID */
 	rootNode := dm.Entities[0]
-	dm.WalkPrint(rootNode.Name, rootNode.Dependencies)
+	dm.WalkPrint(w, rootNode.Name, rootNode.Dependencies)
+	return nil
 }
 
 /*********************************************************************/
-func (dm *IDependModel) GetByName(name string) IDependNode {
-	for i := range dm.Entities {
-		if dm.Entities[i].Name == name {
-			return dm.Entities[i]
+func (dm *IDependModel) WalkPrint(w *bufio.Writer, prefix string, dependencies []int) {
+	for _, d := range dependencies {
+		dependency := dm.GetByID(d)
+
+		name := strings.Replace(dependency.Name, "/", "\\", -1)
+		name = strings.Replace(name, ",", "", -1)
+
+		_, err := w.WriteString(fmt.Sprintf("%s/%s\n", prefix, name))
+		if err != nil {
+			return
+		}
+
+		if len(dependency.Dependencies) != 0 {
+			dm.WalkPrint(w, prefix+"/"+dependency.Name, dependency.Dependencies)
 		}
 	}
-	return IDependNode{}
 }
 
 /*********************************************************************/
@@ -63,20 +81,4 @@ func (dm *IDependModel) GetByID(id int) IDependNode {
 		}
 	}
 	return IDependNode{}
-}
-
-/*********************************************************************/
-func (dm *IDependModel) WalkPrint(prefix string, dependencies []int) {
-	for _, d := range dependencies {
-		dependency := dm.GetByID(d)
-
-		name := strings.Replace(dependency.Name, "/", "\\", -1)
-		name = strings.Replace(name, ",", "", -1)
-
-		fmt.Printf("%s/%s\n", prefix, name)
-
-		if len(dependency.Dependencies) != 0 {
-			dm.WalkPrint(prefix+"/"+dependency.Name, dependency.Dependencies)
-		}
-	}
 }

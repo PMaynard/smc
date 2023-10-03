@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FRIPP:PlaybookProcess xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:FRIPP="http://www.example.org/FRIPP" name="Test Name" artifactInStateUsed="//@artifact.0/@state.0/@artifactstateinstance.2" resultArtifactInState="//@artifact.0/@state.0/@artifactstateinstance.0" resourceUsed="//@resource.2" relatedreferences="//@externalreferences.0">
+  <artifact name="undefined">
+    <state artifactName="undefined" name="undefined">
+      <artifactstateinstance usedByActivity="//@process.0" originatingActivity="/"/>
+      <artifactstateinstance usedByActivity="//@process.1" originatingActivity="//@process.0"/>
+      <artifactstateinstance usedByActivity="/" originatingActivity="//@process.1"/>
+    </state>
+  </artifact>
+  <process xsi:type="FRIPP:PlaybookProcess" name="act1" artifactInStateUsed="//@artifact.0/@state.0/@artifactstateinstance.0" resultArtifactInState="//@artifact.0/@state.0/@artifactstateinstance.1" resourceUsed="//@resource.0"/>
+  <process xsi:type="FRIPP:PlaybookProcess" name="act2" artifactInStateUsed="//@artifact.0/@state.0/@artifactstateinstance.1" resultArtifactInState="//@artifact.0/@state.0/@artifactstateinstance.2" resourceUsed="//@resource.1"/>
+  <resource xsi:type="FRIPP:Actuator" name="actu1"/>
+  <resource xsi:type="FRIPP:Actuator" name="actu2"/>
+  <resource xsi:type="FRIPP:Actuator" name="actu0"/>
+  <externalreferences name="google"/>
+</FRIPP:PlaybookProcess>

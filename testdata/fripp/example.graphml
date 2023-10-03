@@ -1,0 +1,55 @@
+  <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+      <key id="d0" for="graph" attr.name="artifactInStateUsed" attr.type="string"></key>
+      <key id="d1" for="graph" attr.name="externalreferences" attr.type="string"></key>
+      <key id="d2" for="graph" attr.name="relatedreferences" attr.type="string"></key>
+      <key id="d3" for="graph" attr.name="resourceUsed" attr.type="string"></key>
+      <key id="d4" for="graph" attr.name="resourceUsed-mapped" attr.type="string"></key>
+      <key id="d5" for="graph" attr.name="resultArtifactInState" attr.type="string"></key>
+      <key id="d6" for="node" attr.name="ActuatorName" attr.type="string"></key>
+      <key id="d7" for="node" attr.name="artifactInStateUsed" attr.type="string"></key>
+      <key id="d8" for="node" attr.name="resourceUsed" attr.type="string"></key>
+      <key id="d9" for="node" attr.name="resultArtifactInState" attr.type="string"></key>
+      <key id="d10" for="edge" attr.name="originatingActivity" attr.type="string"></key>
+      <key id="d11" for="edge" attr.name="usedByActivity" attr.type="string"></key>
+      <graph id="g0" edgedefault="directed">
+          <desc>Test Name</desc>
+          <node id="n0">
+              <desc>act1</desc>
+              <data key="d6">actu1</data>
+              <data key="d7">//@artifact.0/@state.0/@artifactstateinstance.0</data>
+              <data key="d8">//@resource.0</data>
+              <data key="d9">//@artifact.0/@state.0/@artifactstateinstance.1</data>
+          </node>
+          <node id="n1">
+              <desc>act2</desc>
+              <data key="d6">actu2</data>
+              <data key="d7">//@artifact.0/@state.0/@artifactstateinstance.1</data>
+              <data key="d8">//@resource.1</data>
+              <data key="d9">//@artifact.0/@state.0/@artifactstateinstance.2</data>
+          </node>
+          <node id="n2">
+              <desc>Start</desc>
+          </node>
+          <node id="n3">
+              <desc>End</desc>
+          </node>
+          <edge id="e0" source="n2" target="n0">
+              <data key="d10">//@process.0</data>
+              <data key="d11">/</data>
+          </edge>
+          <edge id="e1" source="n0" target="n1">
+              <data key="d10">//@process.1</data>
+              <data key="d11">//@process.0</data>
+          </edge>
+          <edge id="e2" source="n1" target="n3">
+              <data key="d10">/</data>
+              <data key="d11">//@process.1</data>
+          </edge>
+          <data key="d0">//@artifact.0/@state.0/@artifactstateinstance.2</data>
+          <data key="d1">google</data>
+          <data key="d2">//@externalreferences.0</data>
+          <data key="d3">//@resource.2</data>
+          <data key="d4">actu0</data>
+          <data key="d5">//@artifact.0/@state.0/@artifactstateinstance.0</data>
+      </graph>
+  </graphml>
