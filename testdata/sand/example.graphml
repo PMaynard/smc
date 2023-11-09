@@ -6,39 +6,39 @@
       <graph id="g0" edgedefault="directed">
           <desc>example SAND</desc>
           <node id="n0">
-              <desc>Become Root</desc>
+              <desc> 0. Become Root</desc>
               <data key="d1">OR</data>
           </node>
           <node id="n1">
-              <desc>No-auth</desc>
+              <desc> 1. No-auth (S)</desc>
               <data key="d1">SAND</data>
           </node>
           <node id="n2">
-              <desc>Gain user privileges</desc>
+              <desc> 2. Gain user privileges (S)</desc>
               <data key="d1">SAND</data>
           </node>
           <node id="n3">
-              <desc>ftp</desc>
+              <desc> 3. ftp</desc>
               <data key="d1">OR</data>
           </node>
           <node id="n4">
-              <desc>rsh</desc>
+              <desc> 4. rsh</desc>
               <data key="d1">OR</data>
           </node>
           <node id="n5">
-              <desc>Local Buffer Overflow</desc>
+              <desc> 5. Local Buffer Overflow</desc>
               <data key="d1">OR</data>
           </node>
           <node id="n6">
-              <desc>Auth</desc>
+              <desc> 6. Auth (A)</desc>
               <data key="d1">AND</data>
           </node>
           <node id="n7">
-              <desc>ssh</desc>
+              <desc> 7. ssh</desc>
               <data key="d1">OR</data>
           </node>
           <node id="n8">
-              <desc>rsa</desc>
+              <desc> 8. rsa</desc>
               <data key="d1">OR</data>
           </node>
           <edge id="e0" source="n0" target="n1">

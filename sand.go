@@ -51,7 +51,7 @@ func (st *SANDTree) ParseFile(file string) error {
 
 		tmp := strings.Split(line, ":")
 		res.Indent = strings.Count(tmp[DESC], "\t")
-		res.Desc = strings.TrimSpace(tmp[DESC])
+		res.Desc =  fmt.Sprintf(" %d. ", res.ID) + strings.TrimSpace(tmp[DESC]) 
 
 		/* If missing, the default operator is OR. */
 		if len(tmp) != 2 {
@@ -63,6 +63,14 @@ func (st *SANDTree) ParseFile(file string) error {
 		/* Don't add empty lines or comments 'i.e. starts with #' */
 		if len(res.Desc) == 0 || strings.HasPrefix(res.Desc, "#") {
 			continue
+		}
+
+		if res.Oper == "SAND" {
+			res.Desc = res.Desc + " (S)"
+		}
+
+		if res.Oper == "AND" {
+			res.Desc = res.Desc + " (A)"
 		}
 
 		st.Nodes = append(st.Nodes, res)
