@@ -10,7 +10,7 @@ import (
 
 /* TODO: Rewrite using Generics */
 
-var helpmsg = "Usage: dmtooling [fripp|dm|idm|sand] in.fripp out.graphml"
+var helpmsg = "Usage: smc [fripp|dm|idm|sand] in.fripp out.graphml"
 
 func main() {
 	if len(os.Args) != 4 {
@@ -56,7 +56,7 @@ func Decide(format string, in string, out string) error {
 			return err
 		}
 	default:
-		return errors.New("dmtooling: Unsupported Source Format: " + helpmsg)
+		return errors.New("smc: Unsupported Source Format: " + helpmsg)
 	}
 	return nil
 }
@@ -75,7 +75,7 @@ func ReadSAND(filename string) (SANDTree, error) {
 			return st, err
 		}
 	default:
-		return st, errors.New("dmtooling: Unsupported SAND Read Format.")
+		return st, errors.New("smc: Unsupported SAND Read Format.")
 	}
 	return st, nil
 }
@@ -102,7 +102,7 @@ func WriteSAND(st SANDTree, filename string) error {
 	case ".dependencymodel":
 		return ConvertSAND(st, filename)
 	default:
-		return errors.New("dmtooling: Unsupported SAND Write Format.")
+		return errors.New("smc: Unsupported SAND Write Format.")
 	}
 	return nil
 }
@@ -122,7 +122,7 @@ func ReadDM(filename string) (DependencyModel, error) {
 			return dm, err
 		}
 	default:
-		return dm, errors.New("dmtooling: Unsupported DM Read Format.")
+		return dm, errors.New("smc: Unsupported DM Read Format.")
 	}
 	return dm, nil
 }
@@ -154,7 +154,7 @@ func WriteDM(dm DependencyModel, filename string) error {
 			return err
 		}
 	default:
-		return errors.New("dmtooling: Unsupported DM Write Format.")
+		return errors.New("smc: Unsupported DM Write Format.")
 	}
 
 	return nil
@@ -164,11 +164,11 @@ func WriteDM(dm DependencyModel, filename string) error {
 /**/
 func ReadWriteIDM(in string, out string) error {
 	if filepath.Ext(in) != ".xml" {
-		return errors.New("dmtooling: Unsupported Read/Write format for iDepend.")
+		return errors.New("smc: Unsupported Read/Write format for iDepend.")
 	}
 
 	if filepath.Ext(out) != ".txt" {
-		return errors.New("dmtooling: Unsupported Read/Write format for iDepend.")
+		return errors.New("smc: Unsupported Read/Write format for iDepend.")
 	}
 
 	idm := IDependModel{}
@@ -193,7 +193,7 @@ func ReadFRIPP(filename string) (FRIPP, error) {
 			return ir, err
 		}
 	default:
-		return ir, errors.New("dmtooling: Unsupported FRIPP Read Format.")
+		return ir, errors.New("smc: Unsupported FRIPP Read Format.")
 	}
 	return ir, nil
 }
@@ -225,7 +225,7 @@ func WriteFRIPP(ir FRIPP, filename string) error {
 			return err
 		}
 	default:
-		return errors.New("dmtooling: Unsupported FRIPP Write Format.")
+		return errors.New("smc: Unsupported FRIPP Write Format.")
 	}
 
 	return nil

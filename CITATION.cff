@@ -1,7 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 
 cff-version: 1.2.0
-title: dmtooling
+title: Secrutiy Model Converter (SMC)
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -12,8 +12,8 @@ authors:
     email: pete@port22.co.uk
     orcid: 'https://orcid.org/0000-0002-6267-7530'
     affiliation: 'Cardiff University, UK'
-repository-code: 'https://github.com/PMaynard/dmtooling'
-url: 'https://github.com/PMaynard/dmtooling'
+repository-code: 'https://github.com/PMaynard/smc'
+url: 'https://github.com/PMaynard/smc'
 abstract: >-
   A tool for converting data between formalised and
   non-formalised formats via GraphML. 

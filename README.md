@@ -1,27 +1,27 @@
-# Dependency Modelling Tooling
+# Secrutiy Model Converter (SMC)
 
 **Install**
 
 [Golang](https://go.dev/learn/) is required to compile and run this tool. Final versions will have release binaries.
 
-	go install github.com/PMaynard/dmtooling@latest
+    go install github.com/PMaynard/smc@latest
 
 **Usage**
 
 The tool converts models between each other using GraphML as a common format. 
 ```bash
-dmtooling [fripp|dm|idm|sand] in.fripp out.graphml
+smc [fripp|dm|idm|sand] in.fripp out.graphml
 ```
 
 Convert a SAND Attack Tree into SecMoF FRIP Playbook:
 
 ```bash
-dmtooling sand testdata/sand/example.ctrees example.fripp
+smc sand testdata/sand/example.ctrees example.fripp
 ```
 
 Convert FRIP Playbook to GraphML
 ```bash
-dmtooling fripp testdata/fripp/example.fripp example.graphml
+smc fripp testdata/fripp/example.fripp example.graphml
 ```
 
 
@@ -43,7 +43,7 @@ dmtooling fripp testdata/fripp/example.fripp example.graphml
 
 The below file is a textual representation of SAND Attack Trees using tabs to indicate a child node of the above line. 
 
-By running: `dmtooling sand data/ctrees/common.ctrees common.fripp` the Attack Tree is converted into a XML file that can be read by [SecMoF](https://github.com/CardiffUniCOMSC/SecMoF) then formally verified using the tool. 
+By running: `smc sand data/ctrees/common.ctrees common.fripp` the Attack Tree is converted into a XML file that can be read by [SecMoF](https://github.com/CardiffUniCOMSC/SecMoF) then formally verified using the tool. 
 
 ***File**: data/ctrees/common.ctrees*
 
@@ -92,8 +92,8 @@ View test coverage. Currently have 85% of the statements covered by tests.
 
 The primary focus has been on the SAND Attack Tree to SecMoF Playbook Process format, the other code paths were secondary.
 
-	go test -coverprofile=coverage.out
-	go tool cover -html=coverage.out
+    go test -coverprofile=coverage.out
+    go tool cover -html=coverage.out
 
 ## Models License
 
