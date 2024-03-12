@@ -1,4 +1,4 @@
-# Secrutiy Model Converter (SMC)
+# Security Model Converter (SMC)
 
 **Install**
 
