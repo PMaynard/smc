@@ -1,5 +1,9 @@
 # Security Model Converter (SMC)
 
+SMC is an Open-Source command-line application written in GoLang that converts security model data to different formats. SMC supports conversion between SAND Attack Trees, Dependency Models, and FRIPP (see supported formats below). SMC is designed to work alongside the [Security Modelling Framework (SecMoF)](https://github.com/CardiffUniCOMSC/SecMoF) tool. 
+
+SMC uses GraphML as an intermediate format to allow conversion of the different formats, since GraphML is a widely used format it may be used to import/export the models into other tools, including and beyond SecMoF. 
+
 **Install**
 
 [Golang](https://go.dev/learn/) is required to compile and run this tool. Final versions will have release binaries.
